@@ -1,0 +1,4971 @@
+/////////////////////////////////////////////////////////////////////////////
+////
+//// Creator : J BFMP
+//// Category: Piano
+////
+/////////////////////////////////////////////////////////////////////////////
+
+<global>
+global_label=Death Piano Pluck INIT
+
+<group>
+group_label=Death Piano 1
+ampeg_attack=0.001 ampeg_hold=0 ampeg_sustain=0.000000000000000000000000000000000000000044701
+
+<region>
+sample="samples/PNO FX Lower PD A-1-89HS.webm"
+key=21
+offset=0 end=462377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As-1-FS9A.webm"
+key=22
+offset=0 end=393544
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B-1-5TNC.webm"
+key=23
+offset=0 end=318167
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C0-WJTP.webm"
+key=24
+offset=0 end=344377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Cs0-JX76.webm"
+key=25
+offset=0 end=344889
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD D0-PX2A.webm"
+key=26
+offset=0 end=210085
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Ds0-WEIZ.webm"
+key=27
+offset=0 end=378723
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD E0-6WH5.webm"
+key=28
+offset=0 end=489523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD F0-QSAA.webm"
+key=29
+offset=0 end=407357
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Fs0-D1G2.webm"
+key=30
+offset=0 end=481891
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD G0-8Q81.webm"
+key=31
+offset=0 end=506343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Gs0-7SF6.webm"
+key=32
+offset=0 end=422343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD A0-2H2T.webm"
+key=33
+offset=0 end=485661
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As0-6GDJ.webm"
+key=34
+offset=0 end=424458
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B0-DBRO.webm"
+key=35
+offset=0 end=382958
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C1-QKE4.webm"
+key=36
+offset=0 end=425730
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Cs1-IL31.webm"
+key=37
+offset=0 end=453243
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD D1-LYME.webm"
+key=38
+offset=0 end=488354
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Ds1-3PMZ.webm"
+key=39
+offset=0 end=446186
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD E1-X2H0.webm"
+key=40
+offset=0 end=403608
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD F1-VUWJ.webm"
+key=41
+offset=0 end=477907
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Fs1-VYUJ.webm"
+key=42
+offset=0 end=391112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD G1-MUPG.webm"
+key=43
+offset=0 end=353669
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Gs1-IEG9.webm"
+key=44
+offset=0 end=271807
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD A1-E45C.webm"
+key=45
+offset=0 end=310924
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As1-LTL7.webm"
+key=46
+offset=0 end=370096
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B1-9B3P.webm"
+key=47
+offset=0 end=429419
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C2-17ZV.webm"
+key=48
+offset=0 end=372038
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Cs2-13EN.webm"
+key=49
+offset=0 end=360969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD D2-1XSQ.webm"
+key=50
+offset=0 end=528110
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Ds2-RCU2.webm"
+key=51
+offset=0 end=319376
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD E2-QK3F.webm"
+key=52
+offset=0 end=223903
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD F2-QDFN.webm"
+key=53
+offset=0 end=364101
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Fs2-GGV7.webm"
+key=54
+offset=0 end=345262
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD G2-PAJ7.webm"
+key=55
+offset=0 end=412120
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Gs2-YMIP.webm"
+key=56
+offset=0 end=411690
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD A2-R684.webm"
+key=57
+offset=0 end=424999
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As2-HR5H.webm"
+key=58
+offset=0 end=396073
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B2-UEW6.webm"
+key=59
+offset=0 end=365998
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C3-7S7M.webm"
+key=60
+offset=0 end=404733
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs3-VOQ3.webm"
+key=61
+offset=0 end=579064
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D3-U3LP.webm"
+key=62
+offset=0 end=506154
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds3-1VJG.webm"
+key=63
+offset=0 end=480780
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E3-C0ZY.webm"
+key=64
+offset=0 end=531530
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F3-9WNG.webm"
+key=65
+offset=0 end=454760
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs3-PEWL.webm"
+key=66
+offset=0 end=485405
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G3-6D0F.webm"
+key=67
+offset=0 end=428438
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs3-FQJL.webm"
+key=68
+offset=0 end=481667
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A3-BX90.webm"
+key=69
+offset=0 end=398006
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As3-NETO.webm"
+key=70
+offset=0 end=409934
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B3-EHWM.webm"
+key=71
+offset=0 end=523321
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C4-AI3W.webm"
+key=72
+offset=0 end=549301
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs4-IXN1.webm"
+key=73
+offset=0 end=439574
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D4-6OOZ.webm"
+key=74
+offset=0 end=428528
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds4-YV9M.webm"
+key=75
+offset=0 end=396527
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E4-SB9O.webm"
+key=76
+offset=0 end=466112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F4-FD3H.webm"
+key=77
+offset=0 end=395358
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs4-VWJI.webm"
+key=78
+offset=0 end=376253
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G4-SJKU.webm"
+key=79
+offset=0 end=322674
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs4-MYP9.webm"
+key=80
+offset=0 end=406523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A4-DHTD.webm"
+key=81
+offset=0 end=356781
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As4-WFVQ.webm"
+key=82
+offset=0 end=258580
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B4-ITYD.webm"
+key=83
+offset=0 end=339292
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C5-P4C4.webm"
+key=84
+offset=0 end=401499
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs5-I6LZ.webm"
+key=85
+offset=0 end=370875
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D5-N9WB.webm"
+key=86
+offset=0 end=292598
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds5-JA8W.webm"
+key=87
+offset=0 end=305171
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E5-XQHU.webm"
+key=88
+offset=0 end=317011
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F5-PBS9.webm"
+key=89
+offset=0 end=308443
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs5-MEZJ.webm"
+key=90
+offset=0 end=219223
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G5-F58D.webm"
+key=91
+offset=0 end=261832
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs5-BMJU.webm"
+key=92
+offset=0 end=303810
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A5-ZQBO.webm"
+key=93
+offset=0 end=212604
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As5-JNVA.webm"
+key=94
+offset=0 end=245191
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B5-57I7.webm"
+key=95
+offset=0 end=182539
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C6-QS93.webm"
+key=96
+offset=0 end=222444
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs6-X1F6.webm"
+key=97
+offset=0 end=193857
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D6-94JG.webm"
+key=98
+offset=0 end=228856
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds6-HTLX.webm"
+key=99
+offset=0 end=162378
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E6-HTI2.webm"
+key=100
+offset=0 end=222434
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F6-1BCA.webm"
+key=101
+offset=0 end=138549
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs6-TZO3.webm"
+key=102
+offset=0 end=207079
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G6-JB4I.webm"
+key=103
+offset=0 end=189298
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs6-DWVT.webm"
+key=104
+offset=0 end=181343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A6-YAP3.webm"
+key=105
+offset=0 end=219914
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As6-9LBU.webm"
+key=106
+offset=0 end=176757
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B6-MVXK.webm"
+key=107
+offset=0 end=172284
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C7a-221G.webm"
+key=108
+hivel=63
+offset=0 end=142453
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C7b-D7SJ.webm"
+key=108
+lovel=64
+offset=0 end=198550
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A-1-00BT.webm"
+key=21
+offset=0 end=462377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As-1-Q78F.webm"
+key=22
+offset=0 end=393544
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B-1-HWHQ.webm"
+key=23
+offset=0 end=318167
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C0-UGYH.webm"
+key=24
+offset=0 end=344377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Cs0-1T6A.webm"
+key=25
+offset=0 end=344889
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD D0-8SU8.webm"
+key=26
+offset=0 end=210085
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Ds0-7LP8.webm"
+key=27
+offset=0 end=378723
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD E0-QBLP.webm"
+key=28
+offset=0 end=489523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD F0-O54Q.webm"
+key=29
+offset=0 end=407357
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Fs0-CLT2.webm"
+key=30
+offset=0 end=481891
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD G0-OFWH.webm"
+key=31
+offset=0 end=506343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Gs0-CQGU.webm"
+key=32
+offset=0 end=422343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A0-A2CQ.webm"
+key=33
+offset=0 end=485661
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As0-27VZ.webm"
+key=34
+offset=0 end=424458
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B0-SU5R.webm"
+key=35
+offset=0 end=382958
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C1-4SY4.webm"
+key=36
+offset=0 end=425730
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Cs1-5JOQ.webm"
+key=37
+offset=0 end=453243
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD D1-L6UV.webm"
+key=38
+offset=0 end=488354
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Ds1-3BPO.webm"
+key=39
+offset=0 end=446186
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD E1-BZBX.webm"
+key=40
+offset=0 end=403608
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD F1-L1P6.webm"
+key=41
+offset=0 end=477907
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Fs1-KP5I.webm"
+key=42
+offset=0 end=391112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD G1-T1D1.webm"
+key=43
+offset=0 end=353669
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Gs1-RY75.webm"
+key=44
+offset=0 end=271807
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A1-FNWN.webm"
+key=45
+offset=0 end=310924
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As1-SGTY.webm"
+key=46
+offset=0 end=370096
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B1-YA1F.webm"
+key=47
+offset=0 end=429419
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C2-VOTK.webm"
+key=48
+offset=0 end=372038
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Cs2-457U.webm"
+key=49
+offset=0 end=360969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD D2-5HUW.webm"
+key=50
+offset=0 end=528110
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Ds2-JMU7.webm"
+key=51
+offset=0 end=319376
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD E2-31PN.webm"
+key=52
+offset=0 end=223903
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD F2-UJ6N.webm"
+key=53
+offset=0 end=364101
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Fs2-KX84.webm"
+key=54
+offset=0 end=345262
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD G2-ZD31.webm"
+key=55
+offset=0 end=412120
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Gs2-5G4G.webm"
+key=56
+offset=0 end=411690
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A2-T8S6.webm"
+key=57
+offset=0 end=424999
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As2-HF0F.webm"
+key=58
+offset=0 end=396073
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B2-00JV.webm"
+key=59
+offset=0 end=365998
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C3-QPA0.webm"
+key=60
+offset=0 end=404733
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs3-BGQM.webm"
+key=61
+offset=0 end=579064
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D3-O5LI.webm"
+key=62
+offset=0 end=506154
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds3-6SVP.webm"
+key=63
+offset=0 end=480780
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E3-S8R2.webm"
+key=64
+offset=0 end=531530
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F3-FDKJ.webm"
+key=65
+offset=0 end=454760
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs3-WR67.webm"
+key=66
+offset=0 end=485405
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G3-F1IF.webm"
+key=67
+offset=0 end=428438
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs3-B7YX.webm"
+key=68
+offset=0 end=481667
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A3-XYMM.webm"
+key=69
+offset=0 end=398006
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As3-RV6M.webm"
+key=70
+offset=0 end=409934
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B3-O0YD.webm"
+key=71
+offset=0 end=523321
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C4-LZ95.webm"
+key=72
+offset=0 end=549301
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs4-G3F3.webm"
+key=73
+offset=0 end=439574
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D4-7Z0U.webm"
+key=74
+offset=0 end=428528
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds4-FSDD.webm"
+key=75
+offset=0 end=396527
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E4-AFOK.webm"
+key=76
+offset=0 end=466112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F4-ZM2A.webm"
+key=77
+offset=0 end=395358
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs4-JLAV.webm"
+key=78
+offset=0 end=376253
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G4-3FR3.webm"
+key=79
+offset=0 end=322674
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs4-GU0H.webm"
+key=80
+offset=0 end=406523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A4-8T3S.webm"
+key=81
+offset=0 end=356781
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As4-5THK.webm"
+key=82
+offset=0 end=258580
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B4-EEE2.webm"
+key=83
+offset=0 end=339292
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C5-D6I2.webm"
+key=84
+offset=0 end=401499
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs5-KJUH.webm"
+key=85
+offset=0 end=370875
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D5-EOSY.webm"
+key=86
+offset=0 end=292598
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds5-4DDE.webm"
+key=87
+offset=0 end=305171
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E5-SFN2.webm"
+key=88
+offset=0 end=317011
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F5-QSLS.webm"
+key=89
+offset=0 end=308443
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs5-D80L.webm"
+key=90
+offset=0 end=219223
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G5-RF8N.webm"
+key=91
+offset=0 end=261832
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs5-XZO4.webm"
+key=92
+offset=0 end=303810
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A5-6SAZ.webm"
+key=93
+offset=0 end=212604
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As5-6Z0D.webm"
+key=94
+offset=0 end=245191
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B5-RWP3.webm"
+key=95
+offset=0 end=182539
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C6-B1HW.webm"
+key=96
+offset=0 end=222444
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs6-2W4T.webm"
+key=97
+offset=0 end=193857
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D6-43AM.webm"
+key=98
+offset=0 end=228856
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds6-AJF0.webm"
+key=99
+offset=0 end=162378
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E6-QWCK.webm"
+key=100
+offset=0 end=222434
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F6-DO5R.webm"
+key=101
+offset=0 end=138549
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs6-O4MC.webm"
+key=102
+offset=0 end=207079
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G6-CA57.webm"
+key=103
+offset=0 end=189298
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs6-17NF.webm"
+key=104
+offset=0 end=181343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A6-Y2NS.webm"
+key=105
+offset=0 end=219914
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As6-0ZFW.webm"
+key=106
+offset=0 end=176757
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B6-4V3B.webm"
+key=107
+offset=0 end=172284
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C7a-05PX.webm"
+key=108
+hivel=63
+offset=0 end=142453
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C7b-6OPY.webm"
+key=108
+lovel=64
+offset=0 end=198550
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<group>
+group_label=Death Piano 2
+ampeg_attack=0.001 ampeg_hold=0 ampeg_sustain=0
+
+<region>
+sample="samples/Death Piano_Ds-1_127_0001-OTIW.webm"
+key=15
+offset=0 end=549078
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs-1_127_0002-Z66H.webm"
+pitch_keycenter=18
+lokey=16 hikey=18
+offset=0 end=540045
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A-1_127_0003-88XB.webm"
+pitch_keycenter=21
+lokey=19 hikey=21
+offset=0 end=547932
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C0_127_0004-GECD.webm"
+pitch_keycenter=24
+lokey=22 hikey=24
+offset=0 end=547255
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds0_127_0005-K26Z.webm"
+pitch_keycenter=27
+lokey=25 hikey=27
+offset=0 end=538100
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs0_127_0006-EUWY.webm"
+pitch_keycenter=30
+lokey=28 hikey=30
+offset=0 end=536042
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A0_127_0007-2JD1.webm"
+pitch_keycenter=33
+lokey=31 hikey=33
+offset=0 end=538451
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C1_127_0008-Z7AF.webm"
+pitch_keycenter=36
+lokey=34 hikey=36
+offset=0 end=548196
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds1_127_0009-FGIW.webm"
+pitch_keycenter=39
+lokey=37 hikey=39
+offset=0 end=546573
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs1_127_0010-MZMU.webm"
+pitch_keycenter=42
+lokey=40 hikey=42
+offset=0 end=536203
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A1_127_0011-2GY1.webm"
+pitch_keycenter=45
+lokey=43 hikey=45
+offset=0 end=537210
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C2_127_0012-IDGK.webm"
+pitch_keycenter=48
+lokey=46 hikey=48
+offset=0 end=533645
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds2_127_0013-U84H.webm"
+pitch_keycenter=51
+lokey=49 hikey=51
+offset=0 end=533778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs2_127_0014-46EH.webm"
+pitch_keycenter=54
+lokey=52 hikey=54
+offset=0 end=545296
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A2_127_0015-O8U8.webm"
+pitch_keycenter=57
+lokey=55 hikey=57
+offset=0 end=536217
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C3_127_0016-W44L.webm"
+pitch_keycenter=60
+lokey=58 hikey=60
+offset=0 end=544732
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds3_127_0017-QYH5.webm"
+pitch_keycenter=63
+lokey=61 hikey=63
+offset=0 end=545124
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs3_127_0018-FAO4.webm"
+pitch_keycenter=66
+lokey=64 hikey=66
+offset=0 end=532533
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A3_127_0019-93MP.webm"
+pitch_keycenter=69
+lokey=67 hikey=69
+offset=0 end=344112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C4_127_0020-2HEI.webm"
+pitch_keycenter=72
+lokey=70 hikey=72
+offset=0 end=357778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds4_127_0021-4I54.webm"
+pitch_keycenter=75
+lokey=73 hikey=75
+offset=0 end=256431
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs4_127_0022-I01W.webm"
+pitch_keycenter=78
+lokey=76 hikey=78
+offset=0 end=144969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A4_127_0023-RCSY.webm"
+pitch_keycenter=81
+lokey=79 hikey=81
+offset=0 end=207380
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C5_127_0024-Z30Y.webm"
+pitch_keycenter=84
+lokey=82 hikey=84
+offset=0 end=150090
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds5_127_0025-QDLP.webm"
+pitch_keycenter=87
+lokey=85 hikey=87
+offset=0 end=113447
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs5_127_0026-T8EN.webm"
+pitch_keycenter=90
+lokey=88 hikey=108
+offset=0 end=104949
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<group>
+group_label=Death Piano 3
+ampeg_attack=0.001 ampeg_hold=0 ampeg_sustain=0
+
+<region>
+sample="samples/Death Piano_Ds-1_127_0001-OTIW.webm"
+key=15
+offset=0 end=549078
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs-1_127_0002-Z66H.webm"
+pitch_keycenter=18
+lokey=16 hikey=18
+offset=0 end=540045
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A-1_127_0003-88XB.webm"
+pitch_keycenter=21
+lokey=19 hikey=21
+offset=0 end=547932
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C0_127_0004-GECD.webm"
+pitch_keycenter=24
+lokey=22 hikey=24
+offset=0 end=547255
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds0_127_0005-K26Z.webm"
+pitch_keycenter=27
+lokey=25 hikey=27
+offset=0 end=538100
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs0_127_0006-EUWY.webm"
+pitch_keycenter=30
+lokey=28 hikey=30
+offset=0 end=536042
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A0_127_0007-2JD1.webm"
+pitch_keycenter=33
+lokey=31 hikey=33
+offset=0 end=538451
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C1_127_0008-Z7AF.webm"
+pitch_keycenter=36
+lokey=34 hikey=36
+offset=0 end=548196
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds1_127_0009-FGIW.webm"
+pitch_keycenter=39
+lokey=37 hikey=39
+offset=0 end=546573
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs1_127_0010-MZMU.webm"
+pitch_keycenter=42
+lokey=40 hikey=42
+offset=0 end=536203
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A1_127_0011-2GY1.webm"
+pitch_keycenter=45
+lokey=43 hikey=45
+offset=0 end=537210
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C2_127_0012-IDGK.webm"
+pitch_keycenter=48
+lokey=46 hikey=48
+offset=0 end=533645
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds2_127_0013-U84H.webm"
+pitch_keycenter=51
+lokey=49 hikey=51
+offset=0 end=533778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs2_127_0014-46EH.webm"
+pitch_keycenter=54
+lokey=52 hikey=54
+offset=0 end=545296
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A2_127_0015-O8U8.webm"
+pitch_keycenter=57
+lokey=55 hikey=57
+offset=0 end=536217
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C3_127_0016-W44L.webm"
+pitch_keycenter=60
+lokey=58 hikey=60
+offset=0 end=544732
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds3_127_0017-QYH5.webm"
+pitch_keycenter=63
+lokey=61 hikey=63
+offset=0 end=545124
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs3_127_0018-FAO4.webm"
+pitch_keycenter=66
+lokey=64 hikey=66
+offset=0 end=532533
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A3_127_0019-93MP.webm"
+pitch_keycenter=69
+lokey=67 hikey=69
+offset=0 end=344112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C4_127_0020-2HEI.webm"
+pitch_keycenter=72
+lokey=70 hikey=72
+offset=0 end=357778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds4_127_0021-4I54.webm"
+pitch_keycenter=75
+lokey=73 hikey=75
+offset=0 end=256431
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs4_127_0022-I01W.webm"
+pitch_keycenter=78
+lokey=76 hikey=78
+offset=0 end=144969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A4_127_0023-RCSY.webm"
+pitch_keycenter=81
+lokey=79 hikey=81
+offset=0 end=207380
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C5_127_0024-Z30Y.webm"
+pitch_keycenter=84
+lokey=82 hikey=84
+offset=0 end=150090
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds5_127_0025-QDLP.webm"
+pitch_keycenter=87
+lokey=85 hikey=87
+offset=0 end=113447
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs5_127_0026-T8EN.webm"
+pitch_keycenter=90
+lokey=88 hikey=108
+offset=0 end=104949
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<group>
+group_label=Death Piano 1 (reverse)
+ampeg_attack=0.001 ampeg_hold=0 ampeg_sustain=0.000000000000000000000000000000000000000044701
+
+<region>
+sample="samples/PNO FX Lower PD A-1-89HS.webm"
+direction=reverse
+key=21
+offset=0 end=462377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As-1-FS9A.webm"
+direction=reverse
+key=22
+offset=0 end=393544
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B-1-5TNC.webm"
+direction=reverse
+key=23
+offset=0 end=318167
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C0-WJTP.webm"
+direction=reverse
+key=24
+offset=0 end=344377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Cs0-JX76.webm"
+direction=reverse
+key=25
+offset=0 end=344889
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD D0-PX2A.webm"
+direction=reverse
+key=26
+offset=0 end=210085
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Ds0-WEIZ.webm"
+direction=reverse
+key=27
+offset=0 end=378723
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD E0-6WH5.webm"
+direction=reverse
+key=28
+offset=0 end=489523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD F0-QSAA.webm"
+direction=reverse
+key=29
+offset=0 end=407357
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Fs0-D1G2.webm"
+direction=reverse
+key=30
+offset=0 end=481891
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD G0-8Q81.webm"
+direction=reverse
+key=31
+offset=0 end=506343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Gs0-7SF6.webm"
+direction=reverse
+key=32
+offset=0 end=422343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD A0-2H2T.webm"
+direction=reverse
+key=33
+offset=0 end=485661
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As0-6GDJ.webm"
+direction=reverse
+key=34
+offset=0 end=424458
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B0-DBRO.webm"
+direction=reverse
+key=35
+offset=0 end=382958
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C1-QKE4.webm"
+direction=reverse
+key=36
+offset=0 end=425730
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Cs1-IL31.webm"
+direction=reverse
+key=37
+offset=0 end=453243
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD D1-LYME.webm"
+direction=reverse
+key=38
+offset=0 end=488354
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Ds1-3PMZ.webm"
+direction=reverse
+key=39
+offset=0 end=446186
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD E1-X2H0.webm"
+direction=reverse
+key=40
+offset=0 end=403608
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD F1-VUWJ.webm"
+direction=reverse
+key=41
+offset=0 end=477907
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Fs1-VYUJ.webm"
+direction=reverse
+key=42
+offset=0 end=391112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD G1-MUPG.webm"
+direction=reverse
+key=43
+offset=0 end=353669
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Gs1-IEG9.webm"
+direction=reverse
+key=44
+offset=0 end=271807
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD A1-E45C.webm"
+direction=reverse
+key=45
+offset=0 end=310924
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As1-LTL7.webm"
+direction=reverse
+key=46
+offset=0 end=370096
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B1-9B3P.webm"
+direction=reverse
+key=47
+offset=0 end=429419
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C2-17ZV.webm"
+direction=reverse
+key=48
+offset=0 end=372038
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Cs2-13EN.webm"
+direction=reverse
+key=49
+offset=0 end=360969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD D2-1XSQ.webm"
+direction=reverse
+key=50
+offset=0 end=528110
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Ds2-RCU2.webm"
+direction=reverse
+key=51
+offset=0 end=319376
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD E2-QK3F.webm"
+direction=reverse
+key=52
+offset=0 end=223903
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD F2-QDFN.webm"
+direction=reverse
+key=53
+offset=0 end=364101
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Fs2-GGV7.webm"
+direction=reverse
+key=54
+offset=0 end=345262
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD G2-PAJ7.webm"
+direction=reverse
+key=55
+offset=0 end=412120
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD Gs2-YMIP.webm"
+direction=reverse
+key=56
+offset=0 end=411690
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD A2-R684.webm"
+direction=reverse
+key=57
+offset=0 end=424999
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD As2-HR5H.webm"
+direction=reverse
+key=58
+offset=0 end=396073
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD B2-UEW6.webm"
+direction=reverse
+key=59
+offset=0 end=365998
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PD C3-7S7M.webm"
+direction=reverse
+key=60
+offset=0 end=404733
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs3-VOQ3.webm"
+direction=reverse
+key=61
+offset=0 end=579064
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D3-U3LP.webm"
+direction=reverse
+key=62
+offset=0 end=506154
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds3-1VJG.webm"
+direction=reverse
+key=63
+offset=0 end=480780
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E3-C0ZY.webm"
+direction=reverse
+key=64
+offset=0 end=531530
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F3-9WNG.webm"
+direction=reverse
+key=65
+offset=0 end=454760
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs3-PEWL.webm"
+direction=reverse
+key=66
+offset=0 end=485405
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G3-6D0F.webm"
+direction=reverse
+key=67
+offset=0 end=428438
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs3-FQJL.webm"
+direction=reverse
+key=68
+offset=0 end=481667
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A3-BX90.webm"
+direction=reverse
+key=69
+offset=0 end=398006
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As3-NETO.webm"
+direction=reverse
+key=70
+offset=0 end=409934
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B3-EHWM.webm"
+direction=reverse
+key=71
+offset=0 end=523321
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C4-AI3W.webm"
+direction=reverse
+key=72
+offset=0 end=549301
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs4-IXN1.webm"
+direction=reverse
+key=73
+offset=0 end=439574
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D4-6OOZ.webm"
+direction=reverse
+key=74
+offset=0 end=428528
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds4-YV9M.webm"
+direction=reverse
+key=75
+offset=0 end=396527
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E4-SB9O.webm"
+direction=reverse
+key=76
+offset=0 end=466112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F4-FD3H.webm"
+direction=reverse
+key=77
+offset=0 end=395358
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs4-VWJI.webm"
+direction=reverse
+key=78
+offset=0 end=376253
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G4-SJKU.webm"
+direction=reverse
+key=79
+offset=0 end=322674
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs4-MYP9.webm"
+direction=reverse
+key=80
+offset=0 end=406523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A4-DHTD.webm"
+direction=reverse
+key=81
+offset=0 end=356781
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As4-WFVQ.webm"
+direction=reverse
+key=82
+offset=0 end=258580
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B4-ITYD.webm"
+direction=reverse
+key=83
+offset=0 end=339292
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C5-P4C4.webm"
+direction=reverse
+key=84
+offset=0 end=401499
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs5-I6LZ.webm"
+direction=reverse
+key=85
+offset=0 end=370875
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D5-N9WB.webm"
+direction=reverse
+key=86
+offset=0 end=292598
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds5-JA8W.webm"
+direction=reverse
+key=87
+offset=0 end=305171
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E5-XQHU.webm"
+direction=reverse
+key=88
+offset=0 end=317011
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F5-PBS9.webm"
+direction=reverse
+key=89
+offset=0 end=308443
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs5-MEZJ.webm"
+direction=reverse
+key=90
+offset=0 end=219223
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G5-F58D.webm"
+direction=reverse
+key=91
+offset=0 end=261832
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs5-BMJU.webm"
+direction=reverse
+key=92
+offset=0 end=303810
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A5-ZQBO.webm"
+direction=reverse
+key=93
+offset=0 end=212604
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As5-JNVA.webm"
+direction=reverse
+key=94
+offset=0 end=245191
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B5-57I7.webm"
+direction=reverse
+key=95
+offset=0 end=182539
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C6-QS93.webm"
+direction=reverse
+key=96
+offset=0 end=222444
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Cs6-X1F6.webm"
+direction=reverse
+key=97
+offset=0 end=193857
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN D6-94JG.webm"
+direction=reverse
+key=98
+offset=0 end=228856
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Ds6-HTLX.webm"
+direction=reverse
+key=99
+offset=0 end=162378
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN E6-HTI2.webm"
+direction=reverse
+key=100
+offset=0 end=222434
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN F6-1BCA.webm"
+direction=reverse
+key=101
+offset=0 end=138549
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Fs6-TZO3.webm"
+direction=reverse
+key=102
+offset=0 end=207079
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN G6-JB4I.webm"
+direction=reverse
+key=103
+offset=0 end=189298
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN Gs6-DWVT.webm"
+direction=reverse
+key=104
+offset=0 end=181343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN A6-YAP3.webm"
+direction=reverse
+key=105
+offset=0 end=219914
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN As6-9LBU.webm"
+direction=reverse
+key=106
+offset=0 end=176757
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN B6-MVXK.webm"
+direction=reverse
+key=107
+offset=0 end=172284
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C7a-221G.webm"
+direction=reverse
+key=108
+hivel=63
+offset=0 end=142453
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX Lower PDL DWN C7b-D7SJ.webm"
+direction=reverse
+key=108
+lovel=64
+offset=0 end=198550
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A-1-00BT.webm"
+direction=reverse
+key=21
+offset=0 end=462377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As-1-Q78F.webm"
+direction=reverse
+key=22
+offset=0 end=393544
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B-1-HWHQ.webm"
+direction=reverse
+key=23
+offset=0 end=318167
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C0-UGYH.webm"
+direction=reverse
+key=24
+offset=0 end=344377
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Cs0-1T6A.webm"
+direction=reverse
+key=25
+offset=0 end=344889
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD D0-8SU8.webm"
+direction=reverse
+key=26
+offset=0 end=210085
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Ds0-7LP8.webm"
+direction=reverse
+key=27
+offset=0 end=378723
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD E0-QBLP.webm"
+direction=reverse
+key=28
+offset=0 end=489523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD F0-O54Q.webm"
+direction=reverse
+key=29
+offset=0 end=407357
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Fs0-CLT2.webm"
+direction=reverse
+key=30
+offset=0 end=481891
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD G0-OFWH.webm"
+direction=reverse
+key=31
+offset=0 end=506343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Gs0-CQGU.webm"
+direction=reverse
+key=32
+offset=0 end=422343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A0-A2CQ.webm"
+direction=reverse
+key=33
+offset=0 end=485661
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As0-27VZ.webm"
+direction=reverse
+key=34
+offset=0 end=424458
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B0-SU5R.webm"
+direction=reverse
+key=35
+offset=0 end=382958
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C1-4SY4.webm"
+direction=reverse
+key=36
+offset=0 end=425730
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Cs1-5JOQ.webm"
+direction=reverse
+key=37
+offset=0 end=453243
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD D1-L6UV.webm"
+direction=reverse
+key=38
+offset=0 end=488354
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Ds1-3BPO.webm"
+direction=reverse
+key=39
+offset=0 end=446186
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD E1-BZBX.webm"
+direction=reverse
+key=40
+offset=0 end=403608
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD F1-L1P6.webm"
+direction=reverse
+key=41
+offset=0 end=477907
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Fs1-KP5I.webm"
+direction=reverse
+key=42
+offset=0 end=391112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD G1-T1D1.webm"
+direction=reverse
+key=43
+offset=0 end=353669
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Gs1-RY75.webm"
+direction=reverse
+key=44
+offset=0 end=271807
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A1-FNWN.webm"
+direction=reverse
+key=45
+offset=0 end=310924
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As1-SGTY.webm"
+direction=reverse
+key=46
+offset=0 end=370096
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B1-YA1F.webm"
+direction=reverse
+key=47
+offset=0 end=429419
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C2-VOTK.webm"
+direction=reverse
+key=48
+offset=0 end=372038
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Cs2-457U.webm"
+direction=reverse
+key=49
+offset=0 end=360969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD D2-5HUW.webm"
+direction=reverse
+key=50
+offset=0 end=528110
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Ds2-JMU7.webm"
+direction=reverse
+key=51
+offset=0 end=319376
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD E2-31PN.webm"
+direction=reverse
+key=52
+offset=0 end=223903
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD F2-UJ6N.webm"
+direction=reverse
+key=53
+offset=0 end=364101
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Fs2-KX84.webm"
+direction=reverse
+key=54
+offset=0 end=345262
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD G2-ZD31.webm"
+direction=reverse
+key=55
+offset=0 end=412120
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD Gs2-5G4G.webm"
+direction=reverse
+key=56
+offset=0 end=411690
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD A2-T8S6.webm"
+direction=reverse
+key=57
+offset=0 end=424999
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD As2-HF0F.webm"
+direction=reverse
+key=58
+offset=0 end=396073
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD B2-00JV.webm"
+direction=reverse
+key=59
+offset=0 end=365998
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PD C3-QPA0.webm"
+direction=reverse
+key=60
+offset=0 end=404733
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs3-BGQM.webm"
+direction=reverse
+key=61
+offset=0 end=579064
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D3-O5LI.webm"
+direction=reverse
+key=62
+offset=0 end=506154
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds3-6SVP.webm"
+direction=reverse
+key=63
+offset=0 end=480780
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E3-S8R2.webm"
+direction=reverse
+key=64
+offset=0 end=531530
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F3-FDKJ.webm"
+direction=reverse
+key=65
+offset=0 end=454760
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs3-WR67.webm"
+direction=reverse
+key=66
+offset=0 end=485405
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G3-F1IF.webm"
+direction=reverse
+key=67
+offset=0 end=428438
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs3-B7YX.webm"
+direction=reverse
+key=68
+offset=0 end=481667
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A3-XYMM.webm"
+direction=reverse
+key=69
+offset=0 end=398006
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As3-RV6M.webm"
+direction=reverse
+key=70
+offset=0 end=409934
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B3-O0YD.webm"
+direction=reverse
+key=71
+offset=0 end=523321
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C4-LZ95.webm"
+direction=reverse
+key=72
+offset=0 end=549301
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs4-G3F3.webm"
+direction=reverse
+key=73
+offset=0 end=439574
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D4-7Z0U.webm"
+direction=reverse
+key=74
+offset=0 end=428528
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds4-FSDD.webm"
+direction=reverse
+key=75
+offset=0 end=396527
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E4-AFOK.webm"
+direction=reverse
+key=76
+offset=0 end=466112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F4-ZM2A.webm"
+direction=reverse
+key=77
+offset=0 end=395358
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs4-JLAV.webm"
+direction=reverse
+key=78
+offset=0 end=376253
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G4-3FR3.webm"
+direction=reverse
+key=79
+offset=0 end=322674
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs4-GU0H.webm"
+direction=reverse
+key=80
+offset=0 end=406523
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A4-8T3S.webm"
+direction=reverse
+key=81
+offset=0 end=356781
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As4-5THK.webm"
+direction=reverse
+key=82
+offset=0 end=258580
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B4-EEE2.webm"
+direction=reverse
+key=83
+offset=0 end=339292
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C5-D6I2.webm"
+direction=reverse
+key=84
+offset=0 end=401499
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs5-KJUH.webm"
+direction=reverse
+key=85
+offset=0 end=370875
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D5-EOSY.webm"
+direction=reverse
+key=86
+offset=0 end=292598
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds5-4DDE.webm"
+direction=reverse
+key=87
+offset=0 end=305171
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E5-SFN2.webm"
+direction=reverse
+key=88
+offset=0 end=317011
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F5-QSLS.webm"
+direction=reverse
+key=89
+offset=0 end=308443
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs5-D80L.webm"
+direction=reverse
+key=90
+offset=0 end=219223
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G5-RF8N.webm"
+direction=reverse
+key=91
+offset=0 end=261832
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs5-XZO4.webm"
+direction=reverse
+key=92
+offset=0 end=303810
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A5-6SAZ.webm"
+direction=reverse
+key=93
+offset=0 end=212604
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As5-6Z0D.webm"
+direction=reverse
+key=94
+offset=0 end=245191
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B5-RWP3.webm"
+direction=reverse
+key=95
+offset=0 end=182539
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C6-B1HW.webm"
+direction=reverse
+key=96
+offset=0 end=222444
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Cs6-2W4T.webm"
+direction=reverse
+key=97
+offset=0 end=193857
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN D6-43AM.webm"
+direction=reverse
+key=98
+offset=0 end=228856
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Ds6-AJF0.webm"
+direction=reverse
+key=99
+offset=0 end=162378
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN E6-QWCK.webm"
+direction=reverse
+key=100
+offset=0 end=222434
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN F6-DO5R.webm"
+direction=reverse
+key=101
+offset=0 end=138549
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Fs6-O4MC.webm"
+direction=reverse
+key=102
+offset=0 end=207079
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN G6-CA57.webm"
+direction=reverse
+key=103
+offset=0 end=189298
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN Gs6-17NF.webm"
+direction=reverse
+key=104
+offset=0 end=181343
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN A6-Y2NS.webm"
+direction=reverse
+key=105
+offset=0 end=219914
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN As6-0ZFW.webm"
+direction=reverse
+key=106
+offset=0 end=176757
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN B6-4V3B.webm"
+direction=reverse
+key=107
+offset=0 end=172284
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C7a-05PX.webm"
+direction=reverse
+key=108
+hivel=63
+offset=0 end=142453
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/PNO FX PDL DWN C7b-6OPY.webm"
+direction=reverse
+key=108
+lovel=64
+offset=0 end=198550
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<group>
+group_label=Death Piano 2 (reverse)
+ampeg_attack=0.001 ampeg_hold=0 ampeg_sustain=0
+
+<region>
+sample="samples/Death Piano_Ds-1_127_0001-OTIW.webm"
+direction=reverse
+key=15
+offset=0 end=549078
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs-1_127_0002-Z66H.webm"
+direction=reverse
+pitch_keycenter=18
+lokey=16 hikey=18
+offset=0 end=540045
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A-1_127_0003-88XB.webm"
+direction=reverse
+pitch_keycenter=21
+lokey=19 hikey=21
+offset=0 end=547932
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C0_127_0004-GECD.webm"
+direction=reverse
+pitch_keycenter=24
+lokey=22 hikey=24
+offset=0 end=547255
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds0_127_0005-K26Z.webm"
+direction=reverse
+pitch_keycenter=27
+lokey=25 hikey=27
+offset=0 end=538100
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs0_127_0006-EUWY.webm"
+direction=reverse
+pitch_keycenter=30
+lokey=28 hikey=30
+offset=0 end=536042
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A0_127_0007-2JD1.webm"
+direction=reverse
+pitch_keycenter=33
+lokey=31 hikey=33
+offset=0 end=538451
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C1_127_0008-Z7AF.webm"
+direction=reverse
+pitch_keycenter=36
+lokey=34 hikey=36
+offset=0 end=548196
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds1_127_0009-FGIW.webm"
+direction=reverse
+pitch_keycenter=39
+lokey=37 hikey=39
+offset=0 end=546573
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs1_127_0010-MZMU.webm"
+direction=reverse
+pitch_keycenter=42
+lokey=40 hikey=42
+offset=0 end=536203
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A1_127_0011-2GY1.webm"
+direction=reverse
+pitch_keycenter=45
+lokey=43 hikey=45
+offset=0 end=537210
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C2_127_0012-IDGK.webm"
+direction=reverse
+pitch_keycenter=48
+lokey=46 hikey=48
+offset=0 end=533645
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds2_127_0013-U84H.webm"
+direction=reverse
+pitch_keycenter=51
+lokey=49 hikey=51
+offset=0 end=533778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs2_127_0014-46EH.webm"
+direction=reverse
+pitch_keycenter=54
+lokey=52 hikey=54
+offset=0 end=545296
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A2_127_0015-O8U8.webm"
+direction=reverse
+pitch_keycenter=57
+lokey=55 hikey=57
+offset=0 end=536217
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C3_127_0016-W44L.webm"
+direction=reverse
+pitch_keycenter=60
+lokey=58 hikey=60
+offset=0 end=544732
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds3_127_0017-QYH5.webm"
+direction=reverse
+pitch_keycenter=63
+lokey=61 hikey=63
+offset=0 end=545124
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs3_127_0018-FAO4.webm"
+direction=reverse
+pitch_keycenter=66
+lokey=64 hikey=66
+offset=0 end=532533
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A3_127_0019-93MP.webm"
+direction=reverse
+pitch_keycenter=69
+lokey=67 hikey=69
+offset=0 end=344112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C4_127_0020-2HEI.webm"
+direction=reverse
+pitch_keycenter=72
+lokey=70 hikey=72
+offset=0 end=357778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds4_127_0021-4I54.webm"
+direction=reverse
+pitch_keycenter=75
+lokey=73 hikey=75
+offset=0 end=256431
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs4_127_0022-I01W.webm"
+direction=reverse
+pitch_keycenter=78
+lokey=76 hikey=78
+offset=0 end=144969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A4_127_0023-RCSY.webm"
+direction=reverse
+pitch_keycenter=81
+lokey=79 hikey=81
+offset=0 end=207380
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C5_127_0024-Z30Y.webm"
+direction=reverse
+pitch_keycenter=84
+lokey=82 hikey=84
+offset=0 end=150090
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds5_127_0025-QDLP.webm"
+direction=reverse
+pitch_keycenter=87
+lokey=85 hikey=87
+offset=0 end=113447
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs5_127_0026-T8EN.webm"
+direction=reverse
+pitch_keycenter=90
+lokey=88 hikey=108
+offset=0 end=104949
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<group>
+group_label=Death Piano 3 (reverse)
+ampeg_attack=0.001 ampeg_hold=0 ampeg_sustain=0
+
+<region>
+sample="samples/Death Piano_Ds-1_127_0001-OTIW.webm"
+direction=reverse
+key=15
+offset=0 end=549078
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs-1_127_0002-Z66H.webm"
+direction=reverse
+pitch_keycenter=18
+lokey=16 hikey=18
+offset=0 end=540045
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A-1_127_0003-88XB.webm"
+direction=reverse
+pitch_keycenter=21
+lokey=19 hikey=21
+offset=0 end=547932
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C0_127_0004-GECD.webm"
+direction=reverse
+pitch_keycenter=24
+lokey=22 hikey=24
+offset=0 end=547255
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds0_127_0005-K26Z.webm"
+direction=reverse
+pitch_keycenter=27
+lokey=25 hikey=27
+offset=0 end=538100
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs0_127_0006-EUWY.webm"
+direction=reverse
+pitch_keycenter=30
+lokey=28 hikey=30
+offset=0 end=536042
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A0_127_0007-2JD1.webm"
+direction=reverse
+pitch_keycenter=33
+lokey=31 hikey=33
+offset=0 end=538451
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C1_127_0008-Z7AF.webm"
+direction=reverse
+pitch_keycenter=36
+lokey=34 hikey=36
+offset=0 end=548196
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds1_127_0009-FGIW.webm"
+direction=reverse
+pitch_keycenter=39
+lokey=37 hikey=39
+offset=0 end=546573
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs1_127_0010-MZMU.webm"
+direction=reverse
+pitch_keycenter=42
+lokey=40 hikey=42
+offset=0 end=536203
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A1_127_0011-2GY1.webm"
+direction=reverse
+pitch_keycenter=45
+lokey=43 hikey=45
+offset=0 end=537210
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C2_127_0012-IDGK.webm"
+direction=reverse
+pitch_keycenter=48
+lokey=46 hikey=48
+offset=0 end=533645
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds2_127_0013-U84H.webm"
+direction=reverse
+pitch_keycenter=51
+lokey=49 hikey=51
+offset=0 end=533778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs2_127_0014-46EH.webm"
+direction=reverse
+pitch_keycenter=54
+lokey=52 hikey=54
+offset=0 end=545296
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A2_127_0015-O8U8.webm"
+direction=reverse
+pitch_keycenter=57
+lokey=55 hikey=57
+offset=0 end=536217
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C3_127_0016-W44L.webm"
+direction=reverse
+pitch_keycenter=60
+lokey=58 hikey=60
+offset=0 end=544732
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds3_127_0017-QYH5.webm"
+direction=reverse
+pitch_keycenter=63
+lokey=61 hikey=63
+offset=0 end=545124
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs3_127_0018-FAO4.webm"
+direction=reverse
+pitch_keycenter=66
+lokey=64 hikey=66
+offset=0 end=532533
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A3_127_0019-93MP.webm"
+direction=reverse
+pitch_keycenter=69
+lokey=67 hikey=69
+offset=0 end=344112
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C4_127_0020-2HEI.webm"
+direction=reverse
+pitch_keycenter=72
+lokey=70 hikey=72
+offset=0 end=357778
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds4_127_0021-4I54.webm"
+direction=reverse
+pitch_keycenter=75
+lokey=73 hikey=75
+offset=0 end=256431
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs4_127_0022-I01W.webm"
+direction=reverse
+pitch_keycenter=78
+lokey=76 hikey=78
+offset=0 end=144969
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_A4_127_0023-RCSY.webm"
+direction=reverse
+pitch_keycenter=81
+lokey=79 hikey=81
+offset=0 end=207380
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_C5_127_0024-Z30Y.webm"
+direction=reverse
+pitch_keycenter=84
+lokey=82 hikey=84
+offset=0 end=150090
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Ds5_127_0025-QDLP.webm"
+direction=reverse
+pitch_keycenter=87
+lokey=85 hikey=87
+offset=0 end=113447
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample="samples/Death Piano_Fs5_127_0026-T8EN.webm"
+direction=reverse
+pitch_keycenter=90
+lokey=88 hikey=108
+offset=0 end=104949
+volume=0.04 amp_veltrack=16.67
+pan=21
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 

@@ -1,0 +1,52 @@
+{
+    "instruments": [
+        {
+            "id": "pluck-init",
+            "name": "Pluck INIT",
+            "category": "Piano",
+            "path": "/instruments/death-piano/pluck-init/index.sfz",
+            "lib": "Death Piano",
+            "description": ""
+        },
+        {
+            "id": "real-concert-hall",
+            "name": "Real Concert Hall",
+            "category": "Piano",
+            "path": "/instruments/death-piano/real-concert-hall/index.sfz",
+            "lib": "Death Piano",
+            "description": ""
+        },
+        {
+            "id": "real-old-upright",
+            "name": "Real Old Upright",
+            "category": "Piano",
+            "path": "/instruments/death-piano/real-old-upright/index.sfz",
+            "lib": "Death Piano",
+            "description": ""
+        },
+        {
+            "id": "real-pop-compression",
+            "name": "Real Pop Compression",
+            "category": "Piano",
+            "path": "/instruments/death-piano/real-pop-compression/index.sfz",
+            "lib": "Death Piano",
+            "description": ""
+        },
+        {
+            "id": "guitar-1",
+            "name": "Guitar 1",
+            "category": "Guitar",
+            "path": "/instruments/trailer-elements/guitar-1/index.sfz",
+            "lib": "Trailer ELements",
+            "description": ""
+        },
+        {
+            "id": "booms",
+            "name": "Booms",
+            "category": "Booms",
+            "path": "/instruments/trailer-elements/booms/index.sfz",
+            "lib": "Trailer ELements",
+            "description": ""
+        }
+    ]
+}

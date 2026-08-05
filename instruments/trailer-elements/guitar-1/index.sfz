@@ -1,0 +1,143 @@
+/////////////////////////////////////////////////////////////////////////////
+////
+//// Creator : DAG
+//// Category: Guitar
+////
+/////////////////////////////////////////////////////////////////////////////
+
+<global>
+global_label=Guitar 1
+ampeg_decay=0.5 ampeg_release=0.3 ampeg_sustain=100 ampeg_attack_shape=-3.32
+
+<group>
+group_label=INSTRUMENT 1
+
+<region>
+sample=samples/01.GTR1 - E 01.webm
+pitch_keycenter=40
+lokey=33 hikey=41
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/02GTR1 - G 02.webm
+pitch_keycenter=43
+lokey=42 hikey=44
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/03GTR1 - H 03.webm
+pitch_keycenter=47
+lokey=45 hikey=48
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/04GTR1 - D 04.webm
+pitch_keycenter=50
+lokey=49 hikey=51
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/05GTR1 - F 05.webm
+pitch_keycenter=53
+lokey=52 hikey=55
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/06GTR1 - A 06.webm
+pitch_keycenter=57
+lokey=56 hikey=58
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/07GTR1 - C 07.webm
+pitch_keycenter=60
+lokey=59 hikey=62
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/08GTR1 - E 08.webm
+pitch_keycenter=64
+lokey=63 hikey=65
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/09-GTR1 - G.webm
+pitch_keycenter=67
+lokey=66 hikey=69
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/10-GTR1 - H.webm
+pitch_keycenter=71
+lokey=70 hikey=72
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/11-GTR1 - D.webm
+pitch_keycenter=74
+lokey=73 hikey=75
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/12-GTR1 - F.webm
+pitch_keycenter=77
+lokey=76 hikey=79
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/13-GTR1 - A.webm
+pitch_keycenter=81
+lokey=80 hikey=84
+offset=0 end=960000
+volume=-2.65 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 

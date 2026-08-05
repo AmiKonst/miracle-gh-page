@@ -1,0 +1,183 @@
+/////////////////////////////////////////////////////////////////////////////
+////
+//// Creator : DAG
+//// Category: Unknown
+////
+/////////////////////////////////////////////////////////////////////////////
+
+<global>
+global_label=Booms
+ampeg_decay=0.5 ampeg_release=0.3 ampeg_sustain=100 ampeg_attack_shape=-3.32
+
+<group>
+group_label=INSTRUMENT 1
+
+<region>
+sample=samples/Boom 01.webm
+key=48
+offset=0 end=546000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 02.webm
+key=49
+offset=23052 end=480000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 03.webm
+key=50
+offset=0 end=492000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 04.webm
+key=51
+offset=0 end=535000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 05.webm
+key=52
+offset=0 end=492000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 06.webm
+key=53
+offset=0 end=535000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 07.webm
+key=54
+offset=0 end=535000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 08.webm
+key=55
+offset=0 end=531000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 09.webm
+key=56
+offset=0 end=535000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 10.webm
+key=57
+offset=0 end=535000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 11.webm
+key=58
+offset=0 end=529000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 12.webm
+key=59
+offset=0 end=542000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 13.webm
+key=60
+offset=0 end=535000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 14.webm
+key=61
+offset=35125 end=660000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 15.webm
+key=62
+offset=0 end=492000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 16.webm
+key=63
+offset=0 end=492000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
+
+<region>
+sample=samples/Boom 17.webm
+key=64
+offset=0 end=492000
+tune=-500
+volume=-2.13 amp_veltrack=16.67
+bend_up=200
+bend_down=-200
+loop_mode=no_loop 
