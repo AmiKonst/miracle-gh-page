@@ -1,0 +1,63 @@
+/* Sublime Text Mariana Slate Theme */
+:root {
+    --theme-id: "mariana";
+    --theme-name: "Mariana Slate";
+    
+    /* Backgrounds */
+    --bg-app: #1e222a;
+    --bg-header: linear-gradient(180deg, #272c36 0%, #1e222a 100%);
+    --bg-card: #272c36;
+    --bg-card-hover: #323846;
+    --bg-card-active: #3e4657;
+    --bg-popover: #272c36;
+    --bg-input: #181b21;
+    --bg-input-hover: #232832;
+    --bg-control: #181b21;
+
+    /* Glass Effects */
+    --glass-bg: rgba(39, 44, 54, 0.90);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --overlay-backdrop: rgba(15, 18, 23, 0.75);
+
+    /* Text Colors */
+    --text-primary: #f0f3f8;
+    --text-secondary: #99a4b8;
+    --text-muted: #606b80;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #2f3643;
+    --border-medium: #3d4657;
+    --border-strong: #515d73;
+    --border-active: #5fb3b3;
+
+    /* Accents (Sublime Mariana Teal & Coral Orange) */
+    --accent-primary: #5fb3b3;
+    --accent-primary-hover: #7ec9c9;
+    --accent-secondary: #f99157;
+    --accent-glow: rgba(95, 179, 179, 0.35);
+    --accent-rgb: 95, 179, 179;
+    --accent-gradient: linear-gradient(135deg, #5fb3b3, #f99157);
+    --panel-gradient: linear-gradient(180deg, #272c36 0%, #1e222a 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.45);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.65);
+    --shadow-glow: 0 0 16px rgba(95, 179, 179, 0.3);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #1e222a;
+    --bg-piano-white-key: linear-gradient(180deg, #f8fafc 0%, #cbd5e1 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #5fb3b3;
+    --text-piano-white-key: #181b21;
+    
+    --bg-piano-black-key: linear-gradient(180deg, #3d4657 0%, #181b21 100%);
+    --bg-piano-black-key-hover: #515d73;
+    --bg-piano-black-key-active: #f99157;
+    --text-piano-black-key: #f0f3f8;
+    
+    --piano-key-border: rgba(0, 0, 0, 0.3);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

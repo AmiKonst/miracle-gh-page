@@ -1,0 +1,63 @@
+/* Sublime One Dark Pro Theme */
+:root {
+    --theme-id: "onedark";
+    --theme-name: "One Dark Pro";
+
+    /* Backgrounds */
+    --bg-app: #181a1f;
+    --bg-header: linear-gradient(180deg, #21252b 0%, #181a1f 100%);
+    --bg-card: #21252b;
+    --bg-card-hover: #2c313a;
+    --bg-card-active: #353b45;
+    --bg-popover: #21252b;
+    --bg-input: #1b1d23;
+    --bg-input-hover: #242830;
+    --bg-control: #1b1d23;
+
+    /* Glass Effects */
+    --glass-bg: rgba(33, 37, 43, 0.90);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --overlay-backdrop: rgba(15, 17, 21, 0.8);
+
+    /* Text Colors */
+    --text-primary: #abb2bf;
+    --text-secondary: #98c379;
+    --text-muted: #5c6370;
+    --text-contrast: #181a1f;
+
+    /* Borders */
+    --border-subtle: #282c34;
+    --border-medium: #3b4048;
+    --border-strong: #4b5263;
+    --border-active: #61afef;
+
+    /* Accents (One Dark Azure Blue & Sage Green) */
+    --accent-primary: #61afef;
+    --accent-primary-hover: #8ac2f4;
+    --accent-secondary: #98c379;
+    --accent-glow: rgba(97, 175, 239, 0.35);
+    --accent-rgb: 97, 175, 239;
+    --accent-gradient: linear-gradient(135deg, #61afef, #98c379);
+    --panel-gradient: linear-gradient(180deg, #21252b 0%, #181a1f 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 18px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 16px rgba(97, 175, 239, 0.3);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #181a1f;
+    --bg-piano-white-key: linear-gradient(180deg, #f0f4f8 0%, #d0d7de 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #61afef;
+    --text-piano-white-key: #181a1f;
+
+    --bg-piano-black-key: linear-gradient(180deg, #2c313a 0%, #181a1f 100%);
+    --bg-piano-black-key-hover: #3e4451;
+    --bg-piano-black-key-active: #98c379;
+    --text-piano-black-key: #abb2bf;
+
+    --piano-key-border: rgba(0, 0, 0, 0.35);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

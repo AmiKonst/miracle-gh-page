@@ -1,0 +1,63 @@
+/* Sublime Monokai Pro Theme */
+:root {
+    --theme-id: "monokai-pro";
+    --theme-name: "Monokai Pro";
+
+    /* Backgrounds */
+    --bg-app: #221f22;
+    --bg-header: linear-gradient(180deg, #2d2a2e 0%, #221f22 100%);
+    --bg-card: #2d2a2e;
+    --bg-card-hover: #363237;
+    --bg-card-active: #403c41;
+    --bg-popover: #2d2a2e;
+    --bg-input: #19171a;
+    --bg-input-hover: #262327;
+    --bg-control: #19171a;
+
+    /* Glass Effects */
+    --glass-bg: rgba(45, 42, 46, 0.90);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --overlay-backdrop: rgba(18, 16, 18, 0.8);
+
+    /* Text Colors */
+    --text-primary: #fcfcfa;
+    --text-secondary: #a9dc76;
+    --text-muted: #727072;
+    --text-contrast: #221f22;
+
+    /* Borders */
+    --border-subtle: #363237;
+    --border-medium: #49454a;
+    --border-strong: #5b575d;
+    --border-active: #ffd866;
+
+    /* Accents (Monokai Gold & Magenta Pink) */
+    --accent-primary: #ffd866;
+    --accent-primary-hover: #ffe28a;
+    --accent-secondary: #ff6188;
+    --accent-glow: rgba(255, 216, 102, 0.35);
+    --accent-rgb: 255, 216, 102;
+    --accent-gradient: linear-gradient(135deg, #ffd866, #ff6188);
+    --panel-gradient: linear-gradient(180deg, #2d2a2e 0%, #221f22 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.8);
+    --shadow-glow: 0 0 18px rgba(255, 216, 102, 0.35);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #221f22;
+    --bg-piano-white-key: linear-gradient(180deg, #fcfcfa 0%, #e8e8e3 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #ffd866;
+    --text-piano-white-key: #221f22;
+
+    --bg-piano-black-key: linear-gradient(180deg, #403c41 0%, #19171a 100%);
+    --bg-piano-black-key-hover: #524e54;
+    --bg-piano-black-key-active: #ff6188;
+    --text-piano-black-key: #fcfcfa;
+
+    --piano-key-border: rgba(0, 0, 0, 0.4);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

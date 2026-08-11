@@ -1,0 +1,63 @@
+/* Sublime Solarized Light Theme */
+:root {
+    --theme-id: "solarized-light";
+    --theme-name: "Solarized Light";
+
+    /* Backgrounds */
+    --bg-app: #fdf6e3;
+    --bg-header: linear-gradient(180deg, #ffffff 0%, #f7f0dc 100%);
+    --bg-card: #eee8d5;
+    --bg-card-hover: #e6dfcb;
+    --bg-card-active: #ddd5c0;
+    --bg-popover: #ffffff;
+    --bg-input: #e6dfcb;
+    --bg-input-hover: #ddd5c0;
+    --bg-control: #e6dfcb;
+
+    /* Glass Effects */
+    --glass-bg: rgba(255, 255, 255, 0.92);
+    --glass-border: rgba(7, 54, 66, 0.12);
+    --overlay-backdrop: rgba(7, 54, 66, 0.35);
+
+    /* Text Colors */
+    --text-primary: #073642;
+    --text-secondary: #586e75;
+    --text-muted: #93a1a1;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #e6dfcb;
+    --border-medium: #d3cbb7;
+    --border-strong: #b58900;
+    --border-active: #268bd2;
+
+    /* Accents (Solarized Sapphire Blue & Teal) */
+    --accent-primary: #268bd2;
+    --accent-primary-hover: #1e70ab;
+    --accent-secondary: #2aa198;
+    --accent-glow: rgba(38, 139, 210, 0.25);
+    --accent-rgb: 38, 139, 210;
+    --accent-gradient: linear-gradient(135deg, #268bd2, #2aa198);
+    --panel-gradient: linear-gradient(180deg, #ffffff 0%, #eee8d5 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(7, 54, 66, 0.08);
+    --shadow-md: 0 6px 16px rgba(7, 54, 66, 0.1);
+    --shadow-lg: 0 12px 28px rgba(7, 54, 66, 0.14);
+    --shadow-glow: 0 0 14px rgba(38, 139, 210, 0.22);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #e6dfcb;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #f7f0dc 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #268bd2;
+    --text-piano-white-key: #073642;
+
+    --bg-piano-black-key: linear-gradient(180deg, #586e75 0%, #073642 100%);
+    --bg-piano-black-key-hover: #073642;
+    --bg-piano-black-key-active: #2aa198;
+    --text-piano-black-key: #fdf6e3;
+
+    --piano-key-border: rgba(7, 54, 66, 0.2);
+    --piano-key-shadow: 0 4px 8px rgba(7, 54, 66, 0.12);
+}

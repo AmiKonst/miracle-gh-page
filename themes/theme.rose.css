@@ -1,0 +1,63 @@
+/* Sublime Dracula Night Theme */
+:root {
+    --theme-id: "dracula";
+    --theme-name: "Dracula Night";
+
+    /* Backgrounds */
+    --bg-app: #1e1f29;
+    --bg-header: linear-gradient(180deg, #282a36 0%, #1e1f29 100%);
+    --bg-card: #282a36;
+    --bg-card-hover: #343746;
+    --bg-card-active: #44475a;
+    --bg-popover: #282a36;
+    --bg-input: #191a21;
+    --bg-input-hover: #21222c;
+    --bg-control: #191a21;
+
+    /* Glass Effects */
+    --glass-bg: rgba(40, 42, 54, 0.90);
+    --glass-border: rgba(189, 147, 249, 0.2);
+    --overlay-backdrop: rgba(15, 16, 21, 0.8);
+
+    /* Text Colors */
+    --text-primary: #f8f8f2;
+    --text-secondary: #8be9fd;
+    --text-muted: #6272a4;
+    --text-contrast: #1e1f29;
+
+    /* Borders */
+    --border-subtle: #343746;
+    --border-medium: #44475a;
+    --border-strong: #6272a4;
+    --border-active: #bd93f9;
+
+    /* Accents (Dracula Soft Purple & Cyan) */
+    --accent-primary: #bd93f9;
+    --accent-primary-hover: #d6bbfb;
+    --accent-secondary: #8be9fd;
+    --accent-glow: rgba(189, 147, 249, 0.35);
+    --accent-rgb: 189, 147, 249;
+    --accent-gradient: linear-gradient(135deg, #bd93f9, #8be9fd);
+    --panel-gradient: linear-gradient(180deg, #282a36 0%, #1e1f29 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 18px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 16px rgba(189, 147, 249, 0.3);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #1e1f29;
+    --bg-piano-white-key: linear-gradient(180deg, #f8f8f2 0%, #d6d6d0 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #bd93f9;
+    --text-piano-white-key: #1e1f29;
+
+    --bg-piano-black-key: linear-gradient(180deg, #44475a 0%, #191a21 100%);
+    --bg-piano-black-key-hover: #6272a4;
+    --bg-piano-black-key-active: #8be9fd;
+    --text-piano-black-key: #f8f8f2;
+
+    --piano-key-border: rgba(0, 0, 0, 0.35);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,63 @@
+/* Sublime Nordic Ice / Breakers Theme */
+:root {
+    --theme-id: "nordic-ice";
+    --theme-name: "Nordic Ice";
+
+    /* Backgrounds */
+    --bg-app: #141a21;
+    --bg-header: linear-gradient(180deg, #1b222d 0%, #141a21 100%);
+    --bg-card: #1b222d;
+    --bg-card-hover: #232c3a;
+    --bg-card-active: #2d384a;
+    --bg-popover: #1b222d;
+    --bg-input: #11151c;
+    --bg-input-hover: #19202b;
+    --bg-control: #11151c;
+
+    /* Glass Effects */
+    --glass-bg: rgba(27, 34, 45, 0.90);
+    --glass-border: rgba(56, 189, 248, 0.18);
+    --overlay-backdrop: rgba(10, 14, 18, 0.8);
+
+    /* Text Colors */
+    --text-primary: #e2e8f0;
+    --text-secondary: #38bdf8;
+    --text-muted: #64748b;
+    --text-contrast: #0f172a;
+
+    /* Borders */
+    --border-subtle: #212a38;
+    --border-medium: #2e3b4e;
+    --border-strong: #3e4f68;
+    --border-active: #38bdf8;
+
+    /* Accents (Nordic Frost Blue & Mint Green) */
+    --accent-primary: #38bdf8;
+    --accent-primary-hover: #7dd3fc;
+    --accent-secondary: #34d399;
+    --accent-glow: rgba(56, 189, 248, 0.35);
+    --accent-rgb: 56, 189, 248;
+    --accent-gradient: linear-gradient(135deg, #38bdf8, #34d399);
+    --panel-gradient: linear-gradient(180deg, #1b222d 0%, #141a21 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 18px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 16px rgba(56, 189, 248, 0.3);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #141a21;
+    --bg-piano-white-key: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #38bdf8;
+    --text-piano-white-key: #0f172a;
+
+    --bg-piano-black-key: linear-gradient(180deg, #2e3b4e 0%, #11151c 100%);
+    --bg-piano-black-key-hover: #3e4f68;
+    --bg-piano-black-key-active: #34d399;
+    --text-piano-black-key: #e2e8f0;
+
+    --piano-key-border: rgba(0, 0, 0, 0.35);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
