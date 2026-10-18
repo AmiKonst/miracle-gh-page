@@ -1,0 +1,63 @@
+/* Bioluminescent Aurora Emerald / Midnight Green Theme */
+:root {
+    --theme-id: "aurora-emerald";
+    --theme-name: "Aurora Emerald Night";
+
+    /* Deep Forest Obsidian Backgrounds */
+    --bg-app: #060e0b;
+    --bg-header: linear-gradient(180deg, #0d1a15 0%, #060e0b 100%);
+    --bg-card: #0e1d17;
+    --bg-card-hover: #162b23;
+    --bg-card-active: #1f3b30;
+    --bg-popover: #0e1d17;
+    --bg-input: #050b09;
+    --bg-input-hover: #0c1712;
+    --bg-control: #050b09;
+
+    /* Glass Effects */
+    --glass-bg: rgba(14, 29, 23, 0.94);
+    --glass-border: rgba(52, 211, 153, 0.2);
+    --overlay-backdrop: rgba(3, 7, 5, 0.88);
+
+    /* Text Colors */
+    --text-primary: #ecfdf5;
+    --text-secondary: #34d399;
+    --text-muted: #537567;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #14261f;
+    --border-medium: #1f3d32;
+    --border-strong: #34d399;
+    --border-active: #34d399;
+
+    /* Accents (Bioluminescent Mint & Neon Lime) */
+    --accent-primary: #34d399;
+    --accent-primary-hover: #6ee7b7;
+    --accent-secondary: #a3e635;
+    --accent-glow: rgba(52, 211, 153, 0.42);
+    --accent-rgb: 52, 211, 153;
+    --accent-gradient: linear-gradient(135deg, #34d399 0%, #a3e635 100%);
+    --panel-gradient: linear-gradient(180deg, #0e1d17 0%, #060e0b 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.55);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.8);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.92);
+    --shadow-glow: 0 0 20px rgba(52, 211, 153, 0.35);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #060e0b;
+    --bg-piano-white-key: linear-gradient(180deg, #f0fdf4 0%, #cbe8d8 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #34d399;
+    --text-piano-white-key: #060e0b;
+
+    --bg-piano-black-key: linear-gradient(180deg, #182e25 0%, #050b09 100%);
+    --bg-piano-black-key-hover: #264739;
+    --bg-piano-black-key-active: #a3e635;
+    --text-piano-black-key: #ecfdf5;
+
+    --piano-key-border: rgba(0, 0, 0, 0.6);
+    --piano-key-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}

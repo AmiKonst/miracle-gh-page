@@ -1,0 +1,1390 @@
+// --------------------------------------
+// SFZ format v2 with ARIA extensions
+// --------------------------------------
+// Headroom Piano
+// by Bengt Nilsson
+// --------------------------------------
+// converted by kinwie
+// --------------------------------------
+//midi cc
+//velocity range
+//---
+//---
+//---
+//---
+//velocity layer volume
+//file extension
+///////////////////////////////////////////////////////////////////////////
+<control>
+default_path=Samples/
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc40=-
+label_cc67=Hi-Damp
+label_cc72=Release
+label_cc73=Veltrack
+label_cc74=Close Vol
+label_cc75=Close Pan
+label_cc77=Decca Vol
+label_cc78=Decca Pan
+set_cc7=100
+set_hdcc10=0.5
+set_hdcc67=0
+set_hdcc72=0.4
+set_hdcc73=1
+set_hdcc74=1
+set_hdcc75=0.5
+set_hdcc77=0.5
+set_hdcc78=0.5
+//*********************************************************************
+<global>
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
+amp_veltrack=0
+amp_veltrack_oncc73=100
+ampeg_release_oncc72=2
+ampeg_release_curvecc67=7
+note_polyphony=1
+off_time=0.5
+//===========================================
+<master>
+group=1
+locc74=1
+amplitude_oncc74=100
+pan_oncc75=100
+pan_curvecc75=1
+<group>
+lovel=1
+hivel=59
+group_volume=13.3
+group_label=LEVEL1
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL1 CLOSE 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=60
+hivel=89
+group_volume=6.2
+group_label=LEVEL2
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL2 CLOSE 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=90
+hivel=105
+group_volume=3.3
+group_label=LEVEL3
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL3 CLOSE 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=106
+hivel=119
+group_volume=1.1
+group_label=LEVEL4
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL4 CLOSE 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=120
+hivel=127
+group_volume=0
+group_label=LEVEL5
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL5 CLOSE 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+//===========================================
+<master>
+group=2
+locc77=1
+amplitude_oncc77=100
+pan_oncc78=100
+pan_curvecc78=1
+<group>
+lovel=1
+hivel=59
+group_volume=13.3
+group_label=LEVEL1
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL1 DECCA 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=60
+hivel=89
+group_volume=6.2
+group_label=LEVEL2
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL2 DECCA 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=90
+hivel=105
+group_volume=3.3
+group_label=LEVEL3
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL3 DECCA 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=106
+hivel=119
+group_volume=1.1
+group_label=LEVEL4
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL4 DECCA 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+<group>
+lovel=120
+hivel=127
+group_volume=0
+group_label=LEVEL5
+<region>  lokey=21 hikey=22
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 21.webm
+pitch_keycenter=21
+region_label=21
+<region>  lokey=23 hikey=25
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 24.webm
+pitch_keycenter=24
+region_label=24
+<region>  lokey=26 hikey=28
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 27.webm
+pitch_keycenter=27
+region_label=27
+<region>  lokey=29 hikey=31
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 30.webm
+pitch_keycenter=30
+region_label=30
+<region>  lokey=32 hikey=34
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 33.webm
+pitch_keycenter=33
+region_label=33
+<region>  lokey=35 hikey=37
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 36.webm
+pitch_keycenter=36
+region_label=36
+<region>  lokey=38 hikey=40
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 39.webm
+pitch_keycenter=39
+region_label=39
+<region>  lokey=41 hikey=43
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 42.webm
+pitch_keycenter=42
+region_label=42
+<region>  lokey=44 hikey=46
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 45.webm
+pitch_keycenter=45
+region_label=45
+<region>  lokey=47 hikey=49
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 48.webm
+pitch_keycenter=48
+region_label=48
+<region>  lokey=50 hikey=52
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 51.webm
+pitch_keycenter=51
+region_label=51
+<region>  lokey=53 hikey=55
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 54.webm
+pitch_keycenter=54
+region_label=54
+<region>  lokey=56 hikey=58
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 57.webm
+pitch_keycenter=57
+region_label=57
+<region>  lokey=59 hikey=61
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 60.webm
+pitch_keycenter=60
+region_label=60
+<region>  lokey=62 hikey=64
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 63.webm
+pitch_keycenter=63
+region_label=63
+<region>  lokey=65 hikey=67
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 66.webm
+pitch_keycenter=66
+region_label=66
+<region>  lokey=68 hikey=70
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 69.webm
+pitch_keycenter=69
+region_label=69
+<region>  lokey=71 hikey=73
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 72.webm
+pitch_keycenter=72
+region_label=72
+<region>  lokey=74 hikey=76
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 75.webm
+pitch_keycenter=75
+region_label=75
+<region>  lokey=77 hikey=79
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 78.webm
+pitch_keycenter=78
+region_label=78
+<region>  lokey=80 hikey=82
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 81.webm
+pitch_keycenter=81
+region_label=81
+<region>  lokey=83 hikey=85
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 84.webm
+pitch_keycenter=84
+region_label=84
+<region>  lokey=86 hikey=88
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 87.webm
+pitch_keycenter=87
+region_label=87
+<region>  lokey=89 hikey=91
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 90.webm
+pitch_keycenter=90
+region_label=90
+ ampeg_release_oncc67=10
+<region>  lokey=92 hikey=94
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 93.webm
+pitch_keycenter=93
+region_label=93
+ ampeg_release_oncc67=10
+<region>  lokey=95 hikey=97
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 96.webm
+pitch_keycenter=96
+region_label=96
+ ampeg_release_oncc67=10
+<region>  lokey=98 hikey=100
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 99.webm
+pitch_keycenter=99
+region_label=99
+ ampeg_release_oncc67=10
+<region>  lokey=101 hikey=103
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 102.webm
+pitch_keycenter=102
+region_label=102
+ ampeg_release_oncc67=10
+<region>  lokey=104 hikey=106
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 105.webm
+pitch_keycenter=105
+region_label=105
+ ampeg_release_oncc67=10
+<region>  lokey=107 hikey=108
+sample=samples/HEADROOM PIANO LEVEL5 DECCA 108.webm
+pitch_keycenter=108
+region_label=108
+ ampeg_release_oncc67=10
+//--------------------------------------
+<curve>
+curve_index=7
+v000=1
+v001=0
+v127=0

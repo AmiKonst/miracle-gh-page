@@ -1,0 +1,63 @@
+/* Instagram Sunset / Reels Velvet Theme */
+:root {
+    --theme-id: "insta-sunset";
+    --theme-name: "Instagram Sunset";
+
+    /* Luxurious Deep Midnight Velvet Canvas */
+    --bg-app: #0e0a16;
+    --bg-header: linear-gradient(180deg, #181126 0%, #0e0a16 100%);
+    --bg-card: #191227;
+    --bg-card-hover: #241b38;
+    --bg-card-active: #31254c;
+    --bg-popover: #191227;
+    --bg-input: #0c0814;
+    --bg-input-hover: #150f22;
+    --bg-control: #0c0814;
+
+    /* Glass Effects */
+    --glass-bg: rgba(25, 18, 39, 0.94);
+    --glass-border: rgba(225, 48, 108, 0.22);
+    --overlay-backdrop: rgba(7, 5, 12, 0.88);
+
+    /* Text Colors */
+    --text-primary: #fcf6ff;
+    --text-secondary: #f472b6;
+    --text-muted: #79688c;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #231936;
+    --border-medium: #352652;
+    --border-strong: #e1306c;
+    --border-active: #e1306c;
+
+    /* Accents (Instagram Sunset Magenta & Coral Rose) */
+    --accent-primary: #d81b60;
+    --accent-primary-hover: #e1306c;
+    --accent-secondary: #fd5949;
+    --accent-glow: rgba(216, 27, 96, 0.45);
+    --accent-rgb: 216, 27, 96;
+    --accent-gradient: linear-gradient(135deg, #c13584 0%, #d81b60 50%, #fd5949 100%);
+    --panel-gradient: linear-gradient(180deg, #191227 0%, #0e0a16 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.75);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.9);
+    --shadow-glow: 0 0 20px rgba(225, 48, 108, 0.4);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #0e0a16;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #eedaf5 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #d81b60;
+    --text-piano-white-key: #0e0a16;
+
+    --bg-piano-black-key: linear-gradient(180deg, #2a1d42 0%, #0c0814 100%);
+    --bg-piano-black-key-hover: #3d2b5f;
+    --bg-piano-black-key-active: #fd5949;
+    --text-piano-black-key: #fcf6ff;
+
+    --piano-key-border: rgba(0, 0, 0, 0.55);
+    --piano-key-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}

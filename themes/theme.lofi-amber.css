@@ -1,0 +1,63 @@
+/* Lofi Nocturne / Midnight Amber Warm Theme (Low Blue-Light Night Mode) */
+:root {
+    --theme-id: "lofi-nocturne";
+    --theme-name: "Lofi Amber Nocturne";
+
+    /* Warm Espresso & Dark Roasted Chestnut Backgrounds (Eye-Safe Warmth) */
+    --bg-app: #120e0a;
+    --bg-header: linear-gradient(180deg, #1c1611 0%, #120e0a 100%);
+    --bg-card: #1c1611;
+    --bg-card-hover: #292019;
+    --bg-card-active: #382c22;
+    --bg-popover: #1c1611;
+    --bg-input: #0c0907;
+    --bg-input-hover: #17120e;
+    --bg-control: #0c0907;
+
+    /* Glass Effects */
+    --glass-bg: rgba(28, 22, 17, 0.94);
+    --glass-border: rgba(251, 191, 36, 0.2);
+    --overlay-backdrop: rgba(10, 7, 5, 0.88);
+
+    /* Text Colors (Warm Cream & Candlelight) */
+    --text-primary: #fef3c7;
+    --text-secondary: #fbbf24;
+    --text-muted: #856e55;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #271e16;
+    --border-medium: #3d2f23;
+    --border-strong: #fbbf24;
+    --border-active: #fbbf24;
+
+    /* Accents (Candle Amber & Warm Cinnamon Terracotta) */
+    --accent-primary: #fbbf24;
+    --accent-primary-hover: #fcd34d;
+    --accent-secondary: #f97316;
+    --accent-glow: rgba(251, 191, 36, 0.42);
+    --accent-rgb: 251, 191, 36;
+    --accent-gradient: linear-gradient(135deg, #fbbf24 0%, #f97316 100%);
+    --panel-gradient: linear-gradient(180deg, #1c1611 0%, #120e0a 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.75);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.9);
+    --shadow-glow: 0 0 20px rgba(251, 191, 36, 0.35);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #120e0a;
+    --bg-piano-white-key: linear-gradient(180deg, #fffbeb 0%, #ede3cf 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #fbbf24;
+    --text-piano-white-key: #120e0a;
+
+    --bg-piano-black-key: linear-gradient(180deg, #30241b 0%, #0c0907 100%);
+    --bg-piano-black-key-hover: #453427;
+    --bg-piano-black-key-active: #f97316;
+    --text-piano-black-key: #fef3c7;
+
+    --piano-key-border: rgba(0, 0, 0, 0.6);
+    --piano-key-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}

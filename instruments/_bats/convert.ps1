@@ -1,5 +1,5 @@
 # Ищем все файлы .wav в текущей папке и глубже
-$wavFiles = Get-ChildItem -Path "." -Filter "*.wav" -Recurse
+$wavFiles = Get-ChildItem -Path "." -Filter "*.flac" -Recurse
 
 foreach ($file in $wavFiles) {
     # Формируем путь для нового файла, меняя расширение на .webm

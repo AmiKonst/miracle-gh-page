@@ -1,0 +1,75 @@
+/* Sakura Blossom Light Theme */
+:root {
+    --theme-id: "sakura-light";
+    --theme-name: "Sakura Blossom Light";
+
+    /* Backgrounds */
+    --bg-app: #faf5f7;
+    --bg-header: linear-gradient(180deg, #ffffff 0%, #f7edf2 100%);
+    --bg-card: #f5e8ee;
+    --bg-card-hover: #edd9e3;
+    --bg-card-active: #e2c7d5;
+    --bg-popover: #ffffff;
+    --bg-input: #edd9e3;
+    --bg-input-hover: #e2c7d5;
+    --bg-control: #edd9e3;
+
+    /* Glass Effects */
+    --glass-bg: rgba(255, 255, 255, 0.94);
+    --glass-border: rgba(225, 29, 72, 0.14);
+    --overlay-backdrop: rgba(43, 20, 31, 0.35);
+
+    /* Text Colors */
+    --text-primary: #3b1828;
+    --text-secondary: #e11d48;
+    --text-muted: #8e687a;
+    --text-contrast: #0f172a;
+
+    /* Borders */
+    --border-subtle: #edd9e3;
+    --border-medium: #dfc2d1;
+    --border-strong: #e11d48;
+    --border-active: #e11d48;
+
+    /* Accents (Sakura Ruby Pink & Blossom Rose) */
+    --accent-primary: #e11d48;
+    --accent-primary-hover: #be123c;
+    --accent-secondary: #f43f5e;
+    --accent-glow: rgba(225, 29, 72, 0.28);
+    --accent-rgb: 225, 29, 72;
+    --accent-gradient: linear-gradient(135deg, #e11d48, #f43f5e);
+    --panel-gradient: linear-gradient(180deg, #ffffff 0%, #f5e8ee 100%);
+
+    /* Danger Tokens */
+    --danger-primary: #be123c;
+    --danger-primary-hover: #9f1239;
+    --danger-rgb: 190, 18, 60;
+    --danger-text: #be123c;
+    --danger-text-hover: #9f1239;
+    --danger-bg: rgba(190, 18, 60, 0.08);
+    --danger-bg-hover: rgba(190, 18, 60, 0.16);
+    --danger-border: rgba(190, 18, 60, 0.24);
+    --danger-border-hover: #be123c;
+    --danger-glow: rgba(190, 18, 60, 0.14);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(59, 24, 40, 0.08);
+    --shadow-md: 0 6px 16px rgba(59, 24, 40, 0.1);
+    --shadow-lg: 0 12px 28px rgba(59, 24, 40, 0.14);
+    --shadow-glow: 0 0 16px rgba(225, 29, 72, 0.24);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #edd9e3;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #fce7f3 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #e11d48;
+    --text-piano-white-key: #3b1828;
+
+    --bg-piano-black-key: linear-gradient(180deg, #653147 0%, #290e1b 100%);
+    --bg-piano-black-key-hover: #3b1828;
+    --bg-piano-black-key-active: #f43f5e;
+    --text-piano-black-key: #faf5f7;
+
+    --piano-key-border: rgba(59, 24, 40, 0.2);
+    --piano-key-shadow: 0 4px 8px rgba(59, 24, 40, 0.12);
+}

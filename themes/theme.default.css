@@ -40,6 +40,18 @@
     --accent-gradient: linear-gradient(135deg, #5fb3b3, #f99157);
     --panel-gradient: linear-gradient(180deg, #272c36 0%, #1e222a 100%);
 
+    /* Danger Tokens (Mariana Crimson / Rose) */
+    --danger-primary: #ec5f67;
+    --danger-primary-hover: #f99157;
+    --danger-rgb: 236, 95, 103;
+    --danger-text: #fca5a5;
+    --danger-text-hover: #ffffff;
+    --danger-bg: rgba(236, 95, 103, 0.12);
+    --danger-bg-hover: rgba(236, 95, 103, 0.24);
+    --danger-border: rgba(236, 95, 103, 0.28);
+    --danger-border-hover: #ec5f67;
+    --danger-glow: rgba(236, 95, 103, 0.28);
+
     /* Shadows */
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.45);

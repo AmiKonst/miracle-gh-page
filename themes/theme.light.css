@@ -23,7 +23,7 @@
     --text-primary: #073642;
     --text-secondary: #586e75;
     --text-muted: #93a1a1;
-    --text-contrast: #ffffff;
+    --text-contrast: #0f172a;
 
     /* Borders */
     --border-subtle: #e6dfcb;
@@ -39,6 +39,18 @@
     --accent-rgb: 38, 139, 210;
     --accent-gradient: linear-gradient(135deg, #268bd2, #2aa198);
     --panel-gradient: linear-gradient(180deg, #ffffff 0%, #eee8d5 100%);
+
+    /* Danger Tokens (Solarized Red) */
+    --danger-primary: #dc322f;
+    --danger-primary-hover: #cb4b16;
+    --danger-rgb: 220, 50, 47;
+    --danger-text: #dc322f;
+    --danger-text-hover: #cb4b16;
+    --danger-bg: rgba(220, 50, 47, 0.08);
+    --danger-bg-hover: rgba(220, 50, 47, 0.16);
+    --danger-border: rgba(220, 50, 47, 0.24);
+    --danger-border-hover: #dc322f;
+    --danger-glow: rgba(220, 50, 47, 0.14);
 
     /* Shadows */
     --shadow-sm: 0 1px 3px rgba(7, 54, 66, 0.08);

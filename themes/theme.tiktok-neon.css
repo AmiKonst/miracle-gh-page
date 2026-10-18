@@ -1,0 +1,63 @@
+/* TikTok Neon Glow / Viral Dark Theme */
+:root {
+    --theme-id: "tiktok-viral";
+    --theme-name: "TikTok Neon Glow";
+
+    /* Deep Pitch-Black Backgrounds for Ultra-High AMOLED Contrast */
+    --bg-app: #08090d;
+    --bg-header: linear-gradient(180deg, #10121a 0%, #08090d 100%);
+    --bg-card: #11141e;
+    --bg-card-hover: #191e2c;
+    --bg-card-active: #22293c;
+    --bg-popover: #11141e;
+    --bg-input: #0a0c12;
+    --bg-input-hover: #141722;
+    --bg-control: #0a0c12;
+
+    /* Glass Effects */
+    --glass-bg: rgba(17, 20, 30, 0.94);
+    --glass-border: rgba(0, 242, 254, 0.18);
+    --overlay-backdrop: rgba(4, 5, 8, 0.88);
+
+    /* Text Colors */
+    --text-primary: #f5f7fc;
+    --text-secondary: #00f2fe;
+    --text-muted: #5e6982;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #171b28;
+    --border-medium: #252b3d;
+    --border-strong: #00f2fe;
+    --border-active: #00f2fe;
+
+    /* Accents (TikTok signature Electric Cyan & Viral Red/Pink) */
+    --accent-primary: #00f2fe;
+    --accent-primary-hover: #4facfe;
+    --accent-secondary: #fe2c55;
+    --accent-glow: rgba(0, 242, 254, 0.45);
+    --accent-rgb: 0, 242, 254;
+    --accent-gradient: linear-gradient(135deg, #00f2fe 0%, #fe2c55 100%);
+    --panel-gradient: linear-gradient(180deg, #11141e 0%, #08090d 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.6);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.8);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.9);
+    --shadow-glow: 0 0 20px rgba(0, 242, 254, 0.4);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #08090d;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #d8e2f0 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #00f2fe;
+    --text-piano-white-key: #08090d;
+
+    --bg-piano-black-key: linear-gradient(180deg, #1c2233 0%, #0a0c12 100%);
+    --bg-piano-black-key-hover: #2a334d;
+    --bg-piano-black-key-active: #fe2c55;
+    --text-piano-black-key: #f5f7fc;
+
+    --piano-key-border: rgba(0, 0, 0, 0.6);
+    --piano-key-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}

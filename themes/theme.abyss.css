@@ -1,0 +1,63 @@
+/* Abyss Oceanic Deep Blue Theme */
+:root {
+    --theme-id: "abyss";
+    --theme-name: "Abyss Deep Blue";
+
+    /* Backgrounds */
+    --bg-app: #081120;
+    --bg-header: linear-gradient(180deg, #0e1c33 0%, #081120 100%);
+    --bg-card: #0e1c33;
+    --bg-card-hover: #15294a;
+    --bg-card-active: #1c3661;
+    --bg-popover: #0e1c33;
+    --bg-input: #050b14;
+    --bg-input-hover: #0a1526;
+    --bg-control: #050b14;
+
+    /* Glass Effects */
+    --glass-bg: rgba(14, 28, 51, 0.94);
+    --glass-border: rgba(0, 229, 255, 0.2);
+    --overlay-backdrop: rgba(4, 9, 16, 0.85);
+
+    /* Text Colors */
+    --text-primary: #e0f2fe;
+    --text-secondary: #00e5ff;
+    --text-muted: #5c7499;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #162b4d;
+    --border-medium: #224275;
+    --border-strong: #00e5ff;
+    --border-active: #00e5ff;
+
+    /* Accents (Abyss Cyan Glow & Electric Sapphire) */
+    --accent-primary: #00e5ff;
+    --accent-primary-hover: #67e8f9;
+    --accent-secondary: #3b82f6;
+    --accent-glow: rgba(0, 229, 255, 0.42);
+    --accent-rgb: 0, 229, 255;
+    --accent-gradient: linear-gradient(135deg, #00e5ff, #3b82f6);
+    --panel-gradient: linear-gradient(180deg, #0e1c33 0%, #081120 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.45);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.65);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.85);
+    --shadow-glow: 0 0 20px rgba(0, 229, 255, 0.4);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #081120;
+    --bg-piano-white-key: linear-gradient(180deg, #f0f9ff 0%, #bae6fd 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #00e5ff;
+    --text-piano-white-key: #081120;
+
+    --bg-piano-black-key: linear-gradient(180deg, #1c3661 0%, #050b14 100%);
+    --bg-piano-black-key-hover: #294d8a;
+    --bg-piano-black-key-active: #3b82f6;
+    --text-piano-black-key: #e0f2fe;
+
+    --piano-key-border: rgba(0, 0, 0, 0.45);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
+}

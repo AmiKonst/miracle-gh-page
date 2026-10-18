@@ -1,0 +1,63 @@
+/* Catppuccin Mocha Theme */
+:root {
+    --theme-id: "catppuccin";
+    --theme-name: "Catppuccin Mocha";
+
+    /* Backgrounds */
+    --bg-app: #1e1e2e;
+    --bg-header: linear-gradient(180deg, #252538 0%, #1e1e2e 100%);
+    --bg-card: #252538;
+    --bg-card-hover: #313244;
+    --bg-card-active: #45475a;
+    --bg-popover: #252538;
+    --bg-input: #181825;
+    --bg-input-hover: #1e1e2e;
+    --bg-control: #181825;
+
+    /* Glass Effects */
+    --glass-bg: rgba(37, 37, 56, 0.92);
+    --glass-border: rgba(203, 166, 247, 0.16);
+    --overlay-backdrop: rgba(17, 17, 27, 0.82);
+
+    /* Text Colors */
+    --text-primary: #cdd6f4;
+    --text-secondary: #cba6f7;
+    --text-muted: #6c7086;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #313244;
+    --border-medium: #45475a;
+    --border-strong: #cba6f7;
+    --border-active: #cba6f7;
+
+    /* Accents (Catppuccin Mauve & Sapphire) */
+    --accent-primary: #cba6f7;
+    --accent-primary-hover: #d9bbf9;
+    --accent-secondary: #74c7ec;
+    --accent-glow: rgba(203, 166, 247, 0.38);
+    --accent-rgb: 203, 166, 247;
+    --accent-gradient: linear-gradient(135deg, #cba6f7, #74c7ec);
+    --panel-gradient: linear-gradient(180deg, #252538 0%, #1e1e2e 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.35);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.55);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.75);
+    --shadow-glow: 0 0 18px rgba(203, 166, 247, 0.35);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #1e1e2e;
+    --bg-piano-white-key: linear-gradient(180deg, #f5e0dc 0%, #bac2de 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #cba6f7;
+    --text-piano-white-key: #11111b;
+
+    --bg-piano-black-key: linear-gradient(180deg, #45475a 0%, #181825 100%);
+    --bg-piano-black-key-hover: #585b70;
+    --bg-piano-black-key-active: #74c7ec;
+    --text-piano-black-key: #cdd6f4;
+
+    --piano-key-border: rgba(0, 0, 0, 0.35);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.45);
+}

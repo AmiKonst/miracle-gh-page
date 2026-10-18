@@ -1,0 +1,63 @@
+/* Tokyo Night Theme */
+:root {
+    --theme-id: "tokyo-night";
+    --theme-name: "Tokyo Night";
+
+    /* Backgrounds */
+    --bg-app: #1a1b26;
+    --bg-header: linear-gradient(180deg, #24283b 0%, #1a1b26 100%);
+    --bg-card: #24283b;
+    --bg-card-hover: #2f354f;
+    --bg-card-active: #3b4263;
+    --bg-popover: #24283b;
+    --bg-input: #16161e;
+    --bg-input-hover: #1f2335;
+    --bg-control: #16161e;
+
+    /* Glass Effects */
+    --glass-bg: rgba(36, 40, 59, 0.92);
+    --glass-border: rgba(122, 162, 247, 0.15);
+    --overlay-backdrop: rgba(15, 15, 24, 0.82);
+
+    /* Text Colors */
+    --text-primary: #c0caf5;
+    --text-secondary: #7aa2f7;
+    --text-muted: #565f89;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #292e42;
+    --border-medium: #3b4263;
+    --border-strong: #7aa2f7;
+    --border-active: #7aa2f7;
+
+    /* Accents (Tokyo Neon Blue & Sunset Pink) */
+    --accent-primary: #7aa2f7;
+    --accent-primary-hover: #9ab8ff;
+    --accent-secondary: #f7768e;
+    --accent-glow: rgba(122, 162, 247, 0.38);
+    --accent-rgb: 122, 162, 247;
+    --accent-gradient: linear-gradient(135deg, #7aa2f7, #f7768e);
+    --panel-gradient: linear-gradient(180deg, #24283b 0%, #1a1b26 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.8);
+    --shadow-glow: 0 0 18px rgba(122, 162, 247, 0.35);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #1a1b26;
+    --bg-piano-white-key: linear-gradient(180deg, #f7f9fe 0%, #d5dcfa 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #7aa2f7;
+    --text-piano-white-key: #16161e;
+
+    --bg-piano-black-key: linear-gradient(180deg, #3b4263 0%, #16161e 100%);
+    --bg-piano-black-key-hover: #4e5782;
+    --bg-piano-black-key-active: #f7768e;
+    --text-piano-black-key: #c0caf5;
+
+    --piano-key-border: rgba(0, 0, 0, 0.4);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

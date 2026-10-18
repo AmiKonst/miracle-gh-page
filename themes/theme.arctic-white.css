@@ -1,0 +1,75 @@
+/* Arctic White Studio Theme */
+:root {
+    --theme-id: "arctic-white";
+    --theme-name: "Arctic White";
+
+    /* Backgrounds */
+    --bg-app: #ffffff;
+    --bg-header: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);
+    --bg-card: #f8fafc;
+    --bg-card-hover: #f1f5f9;
+    --bg-card-active: #e2e8f0;
+    --bg-popover: #ffffff;
+    --bg-input: #f1f5f9;
+    --bg-input-hover: #e2e8f0;
+    --bg-control: #f1f5f9;
+
+    /* Glass Effects */
+    --glass-bg: rgba(255, 255, 255, 0.96);
+    --glass-border: rgba(16, 185, 129, 0.12);
+    --overlay-backdrop: rgba(15, 23, 42, 0.35);
+
+    /* Text Colors */
+    --text-primary: #0f172a;
+    --text-secondary: #059669;
+    --text-muted: #64748b;
+    --text-contrast: #0f172a;
+
+    /* Borders */
+    --border-subtle: #e2e8f0;
+    --border-medium: #cbd5e1;
+    --border-strong: #10b981;
+    --border-active: #10b981;
+
+    /* Accents (Emerald Green & Mint) */
+    --accent-primary: #10b981;
+    --accent-primary-hover: #059669;
+    --accent-secondary: #06b6d4;
+    --accent-glow: rgba(16, 185, 129, 0.28);
+    --accent-rgb: 16, 185, 129;
+    --accent-gradient: linear-gradient(135deg, #10b981, #06b6d4);
+    --panel-gradient: linear-gradient(180deg, #ffffff 0%, #f0fdf4 100%);
+
+    /* Danger Tokens */
+    --danger-primary: #e11d48;
+    --danger-primary-hover: #be123c;
+    --danger-rgb: 225, 29, 72;
+    --danger-text: #e11d48;
+    --danger-text-hover: #be123c;
+    --danger-bg: rgba(225, 29, 72, 0.08);
+    --danger-bg-hover: rgba(225, 29, 72, 0.16);
+    --danger-border: rgba(225, 29, 72, 0.24);
+    --danger-border-hover: #e11d48;
+    --danger-glow: rgba(225, 29, 72, 0.14);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06);
+    --shadow-md: 0 4px 14px rgba(15, 23, 42, 0.08);
+    --shadow-lg: 0 12px 28px rgba(15, 23, 42, 0.12);
+    --shadow-glow: 0 0 16px rgba(16, 185, 129, 0.25);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #f1f5f9;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #ecfdf5 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #10b981;
+    --text-piano-white-key: #0f172a;
+
+    --bg-piano-black-key: linear-gradient(180deg, #1e293b 0%, #064e3b 100%);
+    --bg-piano-black-key-hover: #0f172a;
+    --bg-piano-black-key-active: #06b6d4;
+    --text-piano-black-key: #ffffff;
+
+    --piano-key-border: rgba(15, 23, 42, 0.15);
+    --piano-key-shadow: 0 4px 8px rgba(15, 23, 42, 0.1);
+}

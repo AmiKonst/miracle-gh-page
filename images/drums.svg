@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f0e" />
+      <stop offset="50%" stop-color="#141f1c" />
+      <stop offset="100%" stop-color="#080b0a" />
+    </linearGradient>
+    <radialGradient id="dGlow" cx="65%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(16, 185, 129, 0.3)" />
+      <stop offset="60%" stop-color="rgba(16, 185, 129, 0.08)" />
+      <stop offset="100%" stop-color="rgba(0, 0, 0, 0)" />
+    </radialGradient>
+  </defs>
+
+  <rect width="700" height="200" fill="url(#dBg)" />
+  <rect width="700" height="200" fill="url(#dGlow)" />
+
+  <!-- Snare & Cymbal Geometry -->
+  <g transform="translate(540, 100)" opacity="0.6">
+    <!-- Cymbal circles -->
+    <ellipse cx="40" cy="-20" rx="70" ry="25" fill="none" stroke="#f59e0b" stroke-width="2" />
+    <ellipse cx="40" cy="-20" rx="45" ry="16" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4,4" />
+    <circle cx="40" cy="-20" r="4" fill="#fbbf24" />
+    <!-- Snare Rim -->
+    <ellipse cx="-40" cy="25" rx="60" ry="28" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+    <ellipse cx="-40" cy="25" rx="52" ry="22" fill="#0f172a" />
+  </g>
+
+  <!-- Title Badge & Typography Motif -->
+  <g transform="translate(48, 48)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#10b981">STUDIO CUSTOM BIRCH</text>
+    <text x="0" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.5" fill="#ffffff">Acoustic Studio Drums</text>
+    <text x="0" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="rgba(255,255,255,0.5)">Abbey Session Drums • Punchy Kick, Crisp Snare & Cymbals</text>
+  </g>
+
+  <g transform="translate(610, 40)">
+    <rect x="-30" y="-12" width="90" height="24" rx="4" fill="rgba(16, 185, 129, 0.12)" stroke="#10b981" stroke-width="1" />
+    <text x="15" y="4" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" letter-spacing="1" fill="#10b981">DRUMS</text>
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+/* Cyberpunk 2077 Neon Theme */
+:root {
+    --theme-id: "cyberpunk";
+    --theme-name: "Cyberpunk 2077";
+
+    /* Backgrounds */
+    --bg-app: #0d0e15;
+    --bg-header: linear-gradient(180deg, #181a24 0%, #0d0e15 100%);
+    --bg-card: #161822;
+    --bg-card-hover: #222536;
+    --bg-card-active: #2e324a;
+    --bg-popover: #161822;
+    --bg-input: #08090e;
+    --bg-input-hover: #12141c;
+    --bg-control: #08090e;
+
+    /* Glass Effects */
+    --glass-bg: rgba(22, 24, 34, 0.94);
+    --glass-border: rgba(252, 238, 10, 0.2);
+    --overlay-backdrop: rgba(8, 9, 14, 0.85);
+
+    /* Text Colors */
+    --text-primary: #fcee0a;
+    --text-secondary: #00f0ff;
+    --text-muted: #717993;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #242838;
+    --border-medium: #3b425c;
+    --border-strong: #fcee0a;
+    --border-active: #fcee0a;
+
+    /* Accents (Cyberpunk Neon Yellow & Neon Cyan) */
+    --accent-primary: #fcee0a;
+    --accent-primary-hover: #fff340;
+    --accent-secondary: #00f0ff;
+    --accent-glow: rgba(252, 238, 10, 0.45);
+    --accent-rgb: 252, 238, 10;
+    --accent-gradient: linear-gradient(135deg, #fcee0a, #ff0055);
+    --panel-gradient: linear-gradient(180deg, #161822 0%, #0d0e15 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.7);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.85);
+    --shadow-glow: 0 0 20px rgba(252, 238, 10, 0.4);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #0d0e15;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #d8dde8 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #fcee0a;
+    --text-piano-white-key: #0d0e15;
+
+    --bg-piano-black-key: linear-gradient(180deg, #2b3044 0%, #0a0b10 100%);
+    --bg-piano-black-key-hover: #3d4461;
+    --bg-piano-black-key-active: #00f0ff;
+    --text-piano-black-key: #fcee0a;
+
+    --piano-key-border: rgba(0, 0, 0, 0.5);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}

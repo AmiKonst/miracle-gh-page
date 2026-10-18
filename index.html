@@ -3,10 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SFZ Player & Synthesizer</title>
-    <link id="studio-theme-stylesheet" rel="stylesheet" href="/miracle-gh-page/themes/theme.default.css" />
-    <script type="module" crossorigin src="/miracle-gh-page/assets/index-J3W9gDko.js"></script>
-    <link rel="stylesheet" crossorigin href="/miracle-gh-page/assets/index-vvk0wn8u.css">
+    <title>BILBO.MIRACLE</title>
+    <script>
+      (function() {
+        const isROError = function(e) {
+          const msg = (typeof e === 'string' ? e : (e && (e.message || e.reason?.message || ''))) || '';
+          return msg.indexOf('ResizeObserver loop') !== -1 || msg.indexOf('undelivered notifications') !== -1;
+        };
+        window.addEventListener('error', function(e) {
+          if (isROError(e && (e.error || e.message))) {
+            e.stopImmediatePropagation();
+            e.stopPropagation();
+            if (e.preventDefault) e.preventDefault();
+            return true;
+          }
+        }, true);
+        window.addEventListener('unhandledrejection', function(e) {
+          if (isROError(e && (e.reason || e.message))) {
+            e.stopImmediatePropagation();
+            e.stopPropagation();
+            if (e.preventDefault) e.preventDefault();
+          }
+        }, true);
+        const origOnError = window.onerror;
+        window.onerror = function(msg) {
+          if (isROError(msg)) return true;
+          if (origOnError) return origOnError.apply(this, arguments);
+        };
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link id="studio-theme-stylesheet" rel="stylesheet" href="/themes/theme.default.css" />
+    <script type="module" crossorigin src="/assets/index-DOg2Rzbg.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bgb3EPdt.css">
   </head>
   <body>
     <div id="app"></div>

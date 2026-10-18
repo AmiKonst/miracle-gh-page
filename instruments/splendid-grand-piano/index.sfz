@@ -1,0 +1,574 @@
+// Splendid Grand Piano - full explicit 88-key index
+// Derived directly from the original PP/MP/MF/FF key ranges.
+// Every MIDI key 21..108 is explicitly mapped in every velocity layer.
+// Source sample extensions were changed to .webm to match the converted Samples folder.
+
+<control>
+default_path=Samples/
+
+<global>
+amplitude_oncc7=100
+amplitude_curvecc7=4
+pan_oncc10=100
+pan_curvecc10=1
+ampeg_attack=0.0005
+ampeg_hold=8
+ampeg_hold_oncc133=-6
+ampeg_decay=80
+ampeg_decay_oncc133=-60
+ampeg_sustain=0
+ampeg_release_oncc72=2
+amp_veltrack_oncc99=-100
+amp_veltrack_curvecc99=2
+note_polyphony=1
+off_time=0.5
+sustain_cc=90 //re-route default sustain pedal to CC90
+ampeg_dynamic=1 //allow envelope to update on CC64 change
+ampeg_release_shape=-6 //set the sustain curve dropoff curvature
+ampeg_releasecc64=15 //make maximum release time 15 seconds
+ampeg_release_curvecc64=11 //use the curve_index 11
+
+<curve>curve_index=11
+v000=0
+v032=0
+v042=.1
+v064=.3
+v072=.4
+v073=1
+v127=1
+
+<group>
+group=1
+locc64=65
+locc70=1
+amplitude_oncc70=200
+group_volume=-11
+ampeg_attack=0.1
+<region> lokey=021 hikey=022 pitch_keycenter=033 sample=samples/PP A0.webm
+<region> lokey=023 hikey=023 pitch_keycenter=035 sample=samples/PP B0.webm offset=618
+<region> lokey=024 hikey=025 pitch_keycenter=037 sample=samples/PP Cs1.webm
+<region> lokey=026 hikey=027 pitch_keycenter=038 sample=samples/PP D1.webm offset=1046
+<region> lokey=028 hikey=028 pitch_keycenter=040 sample=samples/PP E1.webm
+<region> lokey=029 hikey=029 pitch_keycenter=041 sample=samples/PP F1.webm
+<region> lokey=030 hikey=032 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=033 hikey=034 pitch_keycenter=045 sample=samples/PP A1.webm
+<region> lokey=035 hikey=035 pitch_keycenter=047 sample=samples/PP B1.webm
+<region> lokey=036 hikey=037 pitch_keycenter=048 sample=samples/PP C2.webm
+<region> lokey=038 hikey=038 pitch_keycenter=050 sample=samples/PP D2.webm
+<region> lokey=039 hikey=040 pitch_keycenter=052 sample=samples/PP E2.webm
+<region> lokey=041 hikey=042 pitch_keycenter=053 sample=samples/PP F2.webm
+<region> lokey=043 hikey=043 pitch_keycenter=055 sample=samples/PP G2.webm
+<region> lokey=044 hikey=044 pitch_keycenter=056 sample=samples/PP Gs2.webm
+<region> lokey=045 hikey=045 pitch_keycenter=057 sample=samples/PP A2.webm
+<region> lokey=046 hikey=046 pitch_keycenter=058 sample=samples/PP As2.webm
+<region> lokey=047 hikey=047 pitch_keycenter=059 sample=samples/PP B2.webm
+<region> lokey=048 hikey=049 pitch_keycenter=060 sample=samples/PP C3.webm
+<region> lokey=050 hikey=051 pitch_keycenter=062 sample=samples/PP D3.webm
+<region> lokey=052 hikey=052 pitch_keycenter=064 sample=samples/PP E3.webm
+<region> lokey=053 hikey=054 pitch_keycenter=065 sample=samples/PP F3.webm
+<region> lokey=055 hikey=056 pitch_keycenter=067 sample=samples/PP G3.webm
+<region> lokey=057 hikey=057 pitch_keycenter=069 sample=samples/PP A3.webm
+<region> lokey=058 hikey=059 pitch_keycenter=071 sample=samples/PP B3.webm
+<region> lokey=060 hikey=061 pitch_keycenter=072 sample=samples/PP C4.webm
+<region> lokey=062 hikey=063 pitch_keycenter=074 sample=samples/PP D4.webm
+<region> lokey=064 hikey=064 pitch_keycenter=076 sample=samples/PP E4.webm
+<region> lokey=065 hikey=066 pitch_keycenter=077 sample=samples/PP F4.webm
+<region> lokey=067 hikey=067 pitch_keycenter=079 sample=samples/PP G4.webm
+<region> lokey=068 hikey=068 pitch_keycenter=080 sample=samples/PP Gs4.webm
+<region> lokey=069 hikey=069 pitch_keycenter=081 sample=samples/PP A4.webm
+<region> lokey=070 hikey=070 pitch_keycenter=082 sample=samples/PP As4.webm
+<region> lokey=071 hikey=071 pitch_keycenter=083 sample=samples/PP B4.webm
+<region> lokey=072 hikey=073 pitch_keycenter=085 sample=samples/PP Cs5.webm
+<region> lokey=074 hikey=074 pitch_keycenter=086 sample=samples/PP D5.webm
+<region> lokey=075 hikey=075 pitch_keycenter=087 sample=samples/PP Ds5.webm
+<region> lokey=076 hikey=077 pitch_keycenter=089 sample=samples/PP F5.webm
+<region> lokey=078 hikey=078 pitch_keycenter=090 sample=samples/PP Fs5.webm pan=-40
+<region> lokey=079 hikey=079 pitch_keycenter=091 sample=samples/PP G5.webm pan=-30 offset=135
+<region> lokey=080 hikey=080 pitch_keycenter=092 sample=samples/PP Gs5.webm pan=-30
+<region> lokey=081 hikey=081 pitch_keycenter=093 sample=samples/PP A5.webm pan=-45
+<region> lokey=082 hikey=082 pitch_keycenter=094 sample=samples/PP As5.webm pan=-45
+<region> lokey=083 hikey=083 pitch_keycenter=095 sample=samples/PP B5.webm offset=324
+<region> lokey=084 hikey=084 pitch_keycenter=096 sample=samples/PP C6.webm offset=57 tune=-5
+<region> lokey=085 hikey=085 pitch_keycenter=097 sample=samples/PP Cs6.webm offset=265 tune=-5
+<region> lokey=086 hikey=086 pitch_keycenter=098 sample=samples/PP D6.webm tune=-10
+<region> lokey=087 hikey=087 pitch_keycenter=099 sample=samples/PP Ds6.webm tune=-5
+<region> lokey=088 hikey=088 pitch_keycenter=100 sample=samples/PP E6.webm tune=-10
+<region> lokey=089 hikey=089 pitch_keycenter=101 sample=samples/PP F6.webm tune=-10
+<region> lokey=090 hikey=090 pitch_keycenter=102 sample=samples/PP Fs6.webm tune=-20
+<region> lokey=091 hikey=091 pitch_keycenter=103 sample=samples/PP G6.webm tune=-20
+<region> lokey=092 hikey=092 pitch_keycenter=104 sample=samples/PP Gs6.webm tune=-25
+<region> lokey=093 hikey=093 pitch_keycenter=105 sample=samples/PP A6.webm offset=146 tune=-20
+<region> lokey=094 hikey=094 pitch_keycenter=106 sample=samples/PP As6.webm tune=-25
+<region> lokey=095 hikey=095 pitch_keycenter=107 sample=samples/PP B6.webm tune=-25
+<region> lokey=096 hikey=096 pitch_keycenter=108 sample=samples/PP C7.webm tune=-20
+
+<group>
+lovel=1
+hivel=40
+group_volume=0
+cutoff=1000
+group_label=PPP
+<region> lokey=21 hikey=21 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=22 hikey=22 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=23 hikey=23 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=24 hikey=24 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=25 hikey=25 pitch_keycenter=027 ampeg_release=0.5 sample=samples/PP Ds0.webm
+<region> lokey=26 hikey=26 pitch_keycenter=027 ampeg_release=0.5 sample=samples/PP Ds0.webm
+<region> lokey=27 hikey=27 pitch_keycenter=027 ampeg_release=0.5 sample=samples/PP Ds0.webm
+<region> lokey=28 hikey=28 pitch_keycenter=029 ampeg_release=0.4 sample=samples/PP F0.webm
+<region> lokey=29 hikey=29 pitch_keycenter=029 ampeg_release=0.4 sample=samples/PP F0.webm
+<region> lokey=30 hikey=30 pitch_keycenter=029 ampeg_release=0.4 sample=samples/PP F0.webm
+<region> lokey=31 hikey=31 pitch_keycenter=031 ampeg_release=0.3 sample=samples/PP G0.webm
+<region> lokey=32 hikey=32 pitch_keycenter=031 ampeg_release=0.3 sample=samples/PP G0.webm
+<region> lokey=33 hikey=33 pitch_keycenter=033 ampeg_release=0.2 sample=samples/PP A0.webm
+<region> lokey=34 hikey=34 pitch_keycenter=033 ampeg_release=0.2 sample=samples/PP A0.webm
+<region> lokey=35 hikey=35 pitch_keycenter=035 ampeg_release=0.1 sample=samples/PP B0.webm offset=618
+<region> lokey=36 hikey=36 pitch_keycenter=037 sample=samples/PP Cs1.webm volume=1
+<region> lokey=37 hikey=37 pitch_keycenter=037 sample=samples/PP Cs1.webm volume=1
+<region> lokey=38 hikey=38 pitch_keycenter=038 sample=samples/PP D1.webm offset=1046
+<region> lokey=39 hikey=39 pitch_keycenter=038 sample=samples/PP D1.webm offset=1046
+<region> lokey=40 hikey=40 pitch_keycenter=040 sample=samples/PP E1.webm
+<region> lokey=41 hikey=41 pitch_keycenter=041 sample=samples/PP F1.webm
+<region> lokey=42 hikey=42 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=43 hikey=43 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=44 hikey=44 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=45 hikey=45 pitch_keycenter=045 sample=samples/PP A1.webm
+<region> lokey=46 hikey=46 pitch_keycenter=045 sample=samples/PP A1.webm
+<region> lokey=47 hikey=47 pitch_keycenter=047 sample=samples/PP B1.webm
+<region> lokey=48 hikey=48 pitch_keycenter=048 sample=samples/PP C2.webm
+<region> lokey=49 hikey=49 pitch_keycenter=048 sample=samples/PP C2.webm
+<region> lokey=50 hikey=50 pitch_keycenter=050 sample=samples/PP D2.webm
+<region> lokey=51 hikey=51 pitch_keycenter=052 sample=samples/PP E2.webm
+<region> lokey=52 hikey=52 pitch_keycenter=052 sample=samples/PP E2.webm
+<region> lokey=53 hikey=53 pitch_keycenter=053 sample=samples/PP F2.webm
+<region> lokey=54 hikey=54 pitch_keycenter=053 sample=samples/PP F2.webm
+<region> lokey=55 hikey=55 pitch_keycenter=055 sample=samples/PP G2.webm
+<region> lokey=56 hikey=56 pitch_keycenter=056 sample=samples/PP Gs2.webm
+<region> lokey=57 hikey=57 pitch_keycenter=057 sample=samples/PP A2.webm
+<region> lokey=58 hikey=58 pitch_keycenter=058 sample=samples/PP As2.webm
+<region> lokey=59 hikey=59 pitch_keycenter=059 sample=samples/PP B2.webm
+<region> lokey=60 hikey=60 pitch_keycenter=060 sample=samples/PP C3.webm
+<region> lokey=61 hikey=61 pitch_keycenter=060 sample=samples/PP C3.webm
+<region> lokey=62 hikey=62 pitch_keycenter=062 sample=samples/PP D3.webm
+<region> lokey=63 hikey=63 pitch_keycenter=062 sample=samples/PP D3.webm
+<region> lokey=64 hikey=64 pitch_keycenter=064 sample=samples/PP E3.webm
+<region> lokey=65 hikey=65 pitch_keycenter=065 sample=samples/PP F3.webm
+<region> lokey=66 hikey=66 pitch_keycenter=065 sample=samples/PP F3.webm
+<region> lokey=67 hikey=67 pitch_keycenter=067 sample=samples/PP G3.webm
+<region> lokey=68 hikey=68 pitch_keycenter=067 sample=samples/PP G3.webm
+<region> lokey=69 hikey=69 pitch_keycenter=069 sample=samples/PP A3.webm
+<region> lokey=70 hikey=70 pitch_keycenter=071 sample=samples/PP B3.webm
+<region> lokey=71 hikey=71 pitch_keycenter=071 sample=samples/PP B3.webm
+<region> lokey=72 hikey=72 pitch_keycenter=072 sample=samples/PP C4.webm
+<region> lokey=73 hikey=73 pitch_keycenter=072 sample=samples/PP C4.webm
+<region> lokey=74 hikey=74 pitch_keycenter=074 sample=samples/PP D4.webm
+<region> lokey=75 hikey=75 pitch_keycenter=074 sample=samples/PP D4.webm
+<region> lokey=76 hikey=76 pitch_keycenter=076 sample=samples/PP E4.webm
+<region> lokey=77 hikey=77 pitch_keycenter=077 sample=samples/PP F4.webm
+<region> lokey=78 hikey=78 pitch_keycenter=077 sample=samples/PP F4.webm
+<region> lokey=79 hikey=79 pitch_keycenter=079 sample=samples/PP G4.webm
+<region> lokey=80 hikey=80 pitch_keycenter=080 sample=samples/PP Gs4.webm
+<region> lokey=81 hikey=81 pitch_keycenter=081 sample=samples/PP A4.webm
+<region> lokey=82 hikey=82 pitch_keycenter=082 sample=samples/PP As4.webm
+<region> lokey=83 hikey=83 pitch_keycenter=083 sample=samples/PP B4.webm
+<region> lokey=84 hikey=84 pitch_keycenter=085 ampeg_release=0.1 sample=samples/PP Cs5.webm
+<region> lokey=85 hikey=85 pitch_keycenter=085 ampeg_release=0.1 sample=samples/PP Cs5.webm
+<region> lokey=86 hikey=86 pitch_keycenter=086 ampeg_release=0.2 sample=samples/PP D5.webm
+<region> lokey=87 hikey=87 pitch_keycenter=087 ampeg_release=0.3 sample=samples/PP Ds5.webm
+<region> lokey=88 hikey=88 pitch_keycenter=089 ampeg_release=0.4 sample=samples/PP F5.webm
+<region> lokey=89 hikey=89 pitch_keycenter=089 ampeg_release=0.4 sample=samples/PP F5.webm
+<region> lokey=90 hikey=90 pitch_keycenter=090 ampeg_release=0.6 sample=samples/PP Fs5.webm pan=-40
+<region> lokey=91 hikey=91 pitch_keycenter=091 ampeg_release=10 sample=samples/PP G5.webm pan=-30 offset=135
+<region> lokey=92 hikey=92 pitch_keycenter=092 ampeg_release=10 sample=samples/PP Gs5.webm pan=-30
+<region> lokey=93 hikey=93 pitch_keycenter=093 ampeg_release=10 sample=samples/PP A5.webm pan=-45
+<region> lokey=94 hikey=94 pitch_keycenter=094 ampeg_release=10 sample=samples/PP As5.webm pan=-45
+<region> lokey=95 hikey=95 pitch_keycenter=095 ampeg_release=10 sample=samples/PP B5.webm offset=324
+<region> lokey=96 hikey=96 pitch_keycenter=096 ampeg_release=10 sample=samples/PP C6.webm offset=57
+<region> lokey=97 hikey=97 pitch_keycenter=097 ampeg_release=10 sample=samples/PP Cs6.webm offset=265
+<region> lokey=98 hikey=98 pitch_keycenter=098 ampeg_release=10 sample=samples/PP D6.webm
+<region> lokey=99 hikey=99 pitch_keycenter=099 ampeg_release=10 sample=samples/PP Ds6.webm
+<region> lokey=100 hikey=100 pitch_keycenter=100 ampeg_release=10 sample=samples/PP E6.webm
+<region> lokey=101 hikey=101 pitch_keycenter=101 ampeg_release=10 sample=samples/PP F6.webm
+<region> lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=10 sample=samples/PP Fs6.webm
+<region> lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=10 sample=samples/PP G6.webm
+<region> lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=10 sample=samples/PP Gs6.webm
+<region> lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=10 sample=samples/PP A6.webm offset=146
+<region> lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=10 sample=samples/PP As6.webm
+<region> lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=10 sample=samples/PP B6.webm
+<region> lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=10 sample=samples/PP C7.webm
+
+<group>
+lovel=41
+hivel=67
+group_volume=0
+group_label=PP
+<region> lokey=21 hikey=21 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=22 hikey=22 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=23 hikey=23 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=24 hikey=24 pitch_keycenter=023 ampeg_release=0.6 sample=samples/PP B-1.webm
+<region> lokey=25 hikey=25 pitch_keycenter=027 ampeg_release=0.5 sample=samples/PP Ds0.webm
+<region> lokey=26 hikey=26 pitch_keycenter=027 ampeg_release=0.5 sample=samples/PP Ds0.webm
+<region> lokey=27 hikey=27 pitch_keycenter=027 ampeg_release=0.5 sample=samples/PP Ds0.webm
+<region> lokey=28 hikey=28 pitch_keycenter=029 ampeg_release=0.4 sample=samples/PP F0.webm
+<region> lokey=29 hikey=29 pitch_keycenter=029 ampeg_release=0.4 sample=samples/PP F0.webm
+<region> lokey=30 hikey=30 pitch_keycenter=029 ampeg_release=0.4 sample=samples/PP F0.webm
+<region> lokey=31 hikey=31 pitch_keycenter=031 ampeg_release=0.3 sample=samples/PP G0.webm
+<region> lokey=32 hikey=32 pitch_keycenter=031 ampeg_release=0.3 sample=samples/PP G0.webm
+<region> lokey=33 hikey=33 pitch_keycenter=033 ampeg_release=0.2 sample=samples/PP A0.webm
+<region> lokey=34 hikey=34 pitch_keycenter=033 ampeg_release=0.2 sample=samples/PP A0.webm
+<region> lokey=35 hikey=35 pitch_keycenter=035 ampeg_release=0.1 sample=samples/PP B0.webm offset=618
+<region> lokey=36 hikey=36 pitch_keycenter=037 sample=samples/PP Cs1.webm volume=1
+<region> lokey=37 hikey=37 pitch_keycenter=037 sample=samples/PP Cs1.webm volume=1
+<region> lokey=38 hikey=38 pitch_keycenter=038 sample=samples/PP D1.webm offset=1046
+<region> lokey=39 hikey=39 pitch_keycenter=038 sample=samples/PP D1.webm offset=1046
+<region> lokey=40 hikey=40 pitch_keycenter=040 sample=samples/PP E1.webm
+<region> lokey=41 hikey=41 pitch_keycenter=041 sample=samples/PP F1.webm
+<region> lokey=42 hikey=42 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=43 hikey=43 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=44 hikey=44 pitch_keycenter=043 sample=samples/PP G1.webm
+<region> lokey=45 hikey=45 pitch_keycenter=045 sample=samples/PP A1.webm
+<region> lokey=46 hikey=46 pitch_keycenter=045 sample=samples/PP A1.webm
+<region> lokey=47 hikey=47 pitch_keycenter=047 sample=samples/PP B1.webm
+<region> lokey=48 hikey=48 pitch_keycenter=048 sample=samples/PP C2.webm
+<region> lokey=49 hikey=49 pitch_keycenter=048 sample=samples/PP C2.webm
+<region> lokey=50 hikey=50 pitch_keycenter=050 sample=samples/PP D2.webm
+<region> lokey=51 hikey=51 pitch_keycenter=052 sample=samples/PP E2.webm
+<region> lokey=52 hikey=52 pitch_keycenter=052 sample=samples/PP E2.webm
+<region> lokey=53 hikey=53 pitch_keycenter=053 sample=samples/PP F2.webm
+<region> lokey=54 hikey=54 pitch_keycenter=053 sample=samples/PP F2.webm
+<region> lokey=55 hikey=55 pitch_keycenter=055 sample=samples/PP G2.webm
+<region> lokey=56 hikey=56 pitch_keycenter=056 sample=samples/PP Gs2.webm
+<region> lokey=57 hikey=57 pitch_keycenter=057 sample=samples/PP A2.webm
+<region> lokey=58 hikey=58 pitch_keycenter=058 sample=samples/PP As2.webm
+<region> lokey=59 hikey=59 pitch_keycenter=059 sample=samples/PP B2.webm
+<region> lokey=60 hikey=60 pitch_keycenter=060 sample=samples/PP C3.webm
+<region> lokey=61 hikey=61 pitch_keycenter=060 sample=samples/PP C3.webm
+<region> lokey=62 hikey=62 pitch_keycenter=062 sample=samples/PP D3.webm
+<region> lokey=63 hikey=63 pitch_keycenter=062 sample=samples/PP D3.webm
+<region> lokey=64 hikey=64 pitch_keycenter=064 sample=samples/PP E3.webm
+<region> lokey=65 hikey=65 pitch_keycenter=065 sample=samples/PP F3.webm
+<region> lokey=66 hikey=66 pitch_keycenter=065 sample=samples/PP F3.webm
+<region> lokey=67 hikey=67 pitch_keycenter=067 sample=samples/PP G3.webm
+<region> lokey=68 hikey=68 pitch_keycenter=067 sample=samples/PP G3.webm
+<region> lokey=69 hikey=69 pitch_keycenter=069 sample=samples/PP A3.webm
+<region> lokey=70 hikey=70 pitch_keycenter=071 sample=samples/PP B3.webm
+<region> lokey=71 hikey=71 pitch_keycenter=071 sample=samples/PP B3.webm
+<region> lokey=72 hikey=72 pitch_keycenter=072 sample=samples/PP C4.webm
+<region> lokey=73 hikey=73 pitch_keycenter=072 sample=samples/PP C4.webm
+<region> lokey=74 hikey=74 pitch_keycenter=074 sample=samples/PP D4.webm
+<region> lokey=75 hikey=75 pitch_keycenter=074 sample=samples/PP D4.webm
+<region> lokey=76 hikey=76 pitch_keycenter=076 sample=samples/PP E4.webm
+<region> lokey=77 hikey=77 pitch_keycenter=077 sample=samples/PP F4.webm
+<region> lokey=78 hikey=78 pitch_keycenter=077 sample=samples/PP F4.webm
+<region> lokey=79 hikey=79 pitch_keycenter=079 sample=samples/PP G4.webm
+<region> lokey=80 hikey=80 pitch_keycenter=080 sample=samples/PP Gs4.webm
+<region> lokey=81 hikey=81 pitch_keycenter=081 sample=samples/PP A4.webm
+<region> lokey=82 hikey=82 pitch_keycenter=082 sample=samples/PP As4.webm
+<region> lokey=83 hikey=83 pitch_keycenter=083 sample=samples/PP B4.webm
+<region> lokey=84 hikey=84 pitch_keycenter=085 ampeg_release=0.1 sample=samples/PP Cs5.webm
+<region> lokey=85 hikey=85 pitch_keycenter=085 ampeg_release=0.1 sample=samples/PP Cs5.webm
+<region> lokey=86 hikey=86 pitch_keycenter=086 ampeg_release=0.2 sample=samples/PP D5.webm
+<region> lokey=87 hikey=87 pitch_keycenter=087 ampeg_release=0.3 sample=samples/PP Ds5.webm
+<region> lokey=88 hikey=88 pitch_keycenter=089 ampeg_release=0.4 sample=samples/PP F5.webm
+<region> lokey=89 hikey=89 pitch_keycenter=089 ampeg_release=0.4 sample=samples/PP F5.webm
+<region> lokey=90 hikey=90 pitch_keycenter=090 ampeg_release=0.6 sample=samples/PP Fs5.webm pan=-40
+<region> lokey=91 hikey=91 pitch_keycenter=091 ampeg_release=10 sample=samples/PP G5.webm pan=-30 offset=135
+<region> lokey=92 hikey=92 pitch_keycenter=092 ampeg_release=10 sample=samples/PP Gs5.webm pan=-30
+<region> lokey=93 hikey=93 pitch_keycenter=093 ampeg_release=10 sample=samples/PP A5.webm pan=-45
+<region> lokey=94 hikey=94 pitch_keycenter=094 ampeg_release=10 sample=samples/PP As5.webm pan=-45
+<region> lokey=95 hikey=95 pitch_keycenter=095 ampeg_release=10 sample=samples/PP B5.webm offset=324
+<region> lokey=96 hikey=96 pitch_keycenter=096 ampeg_release=10 sample=samples/PP C6.webm offset=57
+<region> lokey=97 hikey=97 pitch_keycenter=097 ampeg_release=10 sample=samples/PP Cs6.webm offset=265
+<region> lokey=98 hikey=98 pitch_keycenter=098 ampeg_release=10 sample=samples/PP D6.webm
+<region> lokey=99 hikey=99 pitch_keycenter=099 ampeg_release=10 sample=samples/PP Ds6.webm
+<region> lokey=100 hikey=100 pitch_keycenter=100 ampeg_release=10 sample=samples/PP E6.webm
+<region> lokey=101 hikey=101 pitch_keycenter=101 ampeg_release=10 sample=samples/PP F6.webm
+<region> lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=10 sample=samples/PP Fs6.webm
+<region> lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=10 sample=samples/PP G6.webm
+<region> lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=10 sample=samples/PP Gs6.webm
+<region> lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=10 sample=samples/PP A6.webm offset=146
+<region> lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=10 sample=samples/PP As6.webm
+<region> lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=10 sample=samples/PP B6.webm
+<region> lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=10 sample=samples/PP C7.webm
+
+<group>
+lovel=68
+hivel=84
+group_volume=0
+group_label=MP
+<region> lokey=21 hikey=21 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mp B-1.webm
+<region> lokey=22 hikey=22 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mp B-1.webm
+<region> lokey=23 hikey=23 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mp B-1.webm
+<region> lokey=24 hikey=24 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mp B-1.webm
+<region> lokey=25 hikey=25 pitch_keycenter=027 ampeg_release=0.5 sample=samples/Mp Ds0.webm
+<region> lokey=26 hikey=26 pitch_keycenter=027 ampeg_release=0.5 sample=samples/Mp Ds0.webm
+<region> lokey=27 hikey=27 pitch_keycenter=027 ampeg_release=0.5 sample=samples/Mp Ds0.webm
+<region> lokey=28 hikey=28 pitch_keycenter=029 ampeg_release=0.4 sample=samples/Mp F0.webm
+<region> lokey=29 hikey=29 pitch_keycenter=029 ampeg_release=0.4 sample=samples/Mp F0.webm
+<region> lokey=30 hikey=30 pitch_keycenter=029 ampeg_release=0.4 sample=samples/Mp F0.webm
+<region> lokey=31 hikey=31 pitch_keycenter=031 ampeg_release=0.3 sample=samples/Mp G0.webm
+<region> lokey=32 hikey=32 pitch_keycenter=031 ampeg_release=0.3 sample=samples/Mp G0.webm
+<region> lokey=33 hikey=33 pitch_keycenter=033 ampeg_release=0.2 sample=samples/Mp A0.webm
+<region> lokey=34 hikey=34 pitch_keycenter=033 ampeg_release=0.2 sample=samples/Mp A0.webm
+<region> lokey=35 hikey=35 pitch_keycenter=035 ampeg_release=0.1 sample=samples/Mp B0.webm
+<region> lokey=36 hikey=36 pitch_keycenter=037 sample=samples/Mp Cs1.webm
+<region> lokey=37 hikey=37 pitch_keycenter=037 sample=samples/Mp Cs1.webm
+<region> lokey=38 hikey=38 pitch_keycenter=038 sample=samples/Mp D1.webm
+<region> lokey=39 hikey=39 pitch_keycenter=038 sample=samples/Mp D1.webm
+<region> lokey=40 hikey=40 pitch_keycenter=040 sample=samples/Mp E1.webm
+<region> lokey=41 hikey=41 pitch_keycenter=041 sample=samples/Mp F1.webm
+<region> lokey=42 hikey=42 pitch_keycenter=043 sample=samples/Mp G1.webm
+<region> lokey=43 hikey=43 pitch_keycenter=043 sample=samples/Mp G1.webm
+<region> lokey=44 hikey=44 pitch_keycenter=043 sample=samples/Mp G1.webm
+<region> lokey=45 hikey=45 pitch_keycenter=045 sample=samples/Mp A1.webm
+<region> lokey=46 hikey=46 pitch_keycenter=045 sample=samples/Mp A1.webm
+<region> lokey=47 hikey=47 pitch_keycenter=047 sample=samples/Mp B1.webm
+<region> lokey=48 hikey=48 pitch_keycenter=048 sample=samples/Mp C2.webm
+<region> lokey=49 hikey=49 pitch_keycenter=048 sample=samples/Mp C2.webm
+<region> lokey=50 hikey=50 pitch_keycenter=050 sample=samples/Mp D2.webm
+<region> lokey=51 hikey=51 pitch_keycenter=052 sample=samples/Mp E2.webm
+<region> lokey=52 hikey=52 pitch_keycenter=052 sample=samples/Mp E2.webm
+<region> lokey=53 hikey=53 pitch_keycenter=053 sample=samples/Mp F2.webm
+<region> lokey=54 hikey=54 pitch_keycenter=053 sample=samples/Mp F2.webm
+<region> lokey=55 hikey=55 pitch_keycenter=055 sample=samples/Mp G2.webm
+<region> lokey=56 hikey=56 pitch_keycenter=056 sample=samples/Mp Gs2.webm
+<region> lokey=57 hikey=57 pitch_keycenter=057 sample=samples/Mp A2.webm
+<region> lokey=58 hikey=58 pitch_keycenter=058 sample=samples/Mp As2.webm
+<region> lokey=59 hikey=59 pitch_keycenter=059 sample=samples/Mp B2.webm
+<region> lokey=60 hikey=60 pitch_keycenter=060 sample=samples/Mp C3.webm
+<region> lokey=61 hikey=61 pitch_keycenter=060 sample=samples/Mp C3.webm
+<region> lokey=62 hikey=62 pitch_keycenter=062 sample=samples/Mp D3.webm offset=11
+<region> lokey=63 hikey=63 pitch_keycenter=062 sample=samples/Mp D3.webm offset=11
+<region> lokey=64 hikey=64 pitch_keycenter=064 sample=samples/Mp E3.webm
+<region> lokey=65 hikey=65 pitch_keycenter=065 sample=samples/Mp F3.webm
+<region> lokey=66 hikey=66 pitch_keycenter=065 sample=samples/Mp F3.webm
+<region> lokey=67 hikey=67 pitch_keycenter=067 sample=samples/Mp G3.webm
+<region> lokey=68 hikey=68 pitch_keycenter=067 sample=samples/Mp G3.webm
+<region> lokey=69 hikey=69 pitch_keycenter=069 sample=samples/Mp A3.webm
+<region> lokey=70 hikey=70 pitch_keycenter=071 sample=samples/Mp B3.webm
+<region> lokey=71 hikey=71 pitch_keycenter=071 sample=samples/Mp B3.webm
+<region> lokey=72 hikey=72 pitch_keycenter=072 sample=samples/Mp C4.webm
+<region> lokey=73 hikey=73 pitch_keycenter=072 sample=samples/Mp C4.webm
+<region> lokey=74 hikey=74 pitch_keycenter=074 sample=samples/Mp D4.webm
+<region> lokey=75 hikey=75 pitch_keycenter=074 sample=samples/Mp D4.webm
+<region> lokey=76 hikey=76 pitch_keycenter=076 sample=samples/Mp E4.webm
+<region> lokey=77 hikey=77 pitch_keycenter=077 sample=samples/Mp F4.webm
+<region> lokey=78 hikey=78 pitch_keycenter=077 sample=samples/Mp F4.webm
+<region> lokey=79 hikey=79 pitch_keycenter=079 sample=samples/Mp G4.webm
+<region> lokey=80 hikey=80 pitch_keycenter=080 sample=samples/Mp Gs4.webm
+<region> lokey=81 hikey=81 pitch_keycenter=081 sample=samples/Mp A4.webm
+<region> lokey=82 hikey=82 pitch_keycenter=082 sample=samples/Mp As4.webm
+<region> lokey=83 hikey=83 pitch_keycenter=083 sample=samples/Mp B4.webm
+<region> lokey=84 hikey=84 pitch_keycenter=085 ampeg_release=0.1 sample=samples/Mp Cs5.webm
+<region> lokey=85 hikey=85 pitch_keycenter=085 ampeg_release=0.1 sample=samples/Mp Cs5.webm
+<region> lokey=86 hikey=86 pitch_keycenter=086 ampeg_release=0.2 sample=samples/Mp D5.webm
+<region> lokey=87 hikey=87 pitch_keycenter=087 ampeg_release=0.3 sample=samples/Mp Ds5.webm
+<region> lokey=88 hikey=88 pitch_keycenter=088 ampeg_release=0.4 sample=samples/Mp E5.webm
+<region> lokey=89 hikey=89 pitch_keycenter=089 ampeg_release=0.5 sample=samples/Mp F5.webm
+<region> lokey=90 hikey=90 pitch_keycenter=090 ampeg_release=0.6 sample=samples/Mp Fs5.webm
+<region> lokey=91 hikey=91 pitch_keycenter=091 ampeg_release=10 sample=samples/Mp G5.webm
+<region> lokey=92 hikey=92 pitch_keycenter=092 ampeg_release=10 sample=samples/Mp Gs5.webm
+<region> lokey=93 hikey=93 pitch_keycenter=093 ampeg_release=10 sample=samples/Mp A5.webm
+<region> lokey=94 hikey=94 pitch_keycenter=094 ampeg_release=10 sample=samples/Mp As5.webm
+<region> lokey=95 hikey=95 pitch_keycenter=095 ampeg_release=10 sample=samples/Mp B5.webm
+<region> lokey=96 hikey=96 pitch_keycenter=096 ampeg_release=10 sample=samples/Mp C6.webm
+<region> lokey=97 hikey=97 pitch_keycenter=097 ampeg_release=10 sample=samples/Mp Cs6.webm
+<region> lokey=98 hikey=98 pitch_keycenter=098 ampeg_release=10 sample=samples/Mp D6.webm
+<region> lokey=99 hikey=99 pitch_keycenter=099 ampeg_release=10 sample=samples/Mp Ds6.webm
+<region> lokey=100 hikey=100 pitch_keycenter=100 ampeg_release=10 sample=samples/PP E6.webm
+<region> lokey=101 hikey=101 pitch_keycenter=101 ampeg_release=10 sample=samples/Mp F6.webm
+<region> lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=10 sample=samples/Mp Fs6.webm
+<region> lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=10 sample=samples/Mp G6.webm
+<region> lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=10 sample=samples/Mp Gs6.webm
+<region> lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=10 sample=samples/Mp A6.webm
+<region> lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=10 sample=samples/Mp As6.webm
+<region> lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=10 sample=samples/PP B6.webm
+<region> lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=10 sample=samples/PP C7.webm
+
+<group>
+lovel=85
+hivel=100
+group_volume=0
+group_label=MF
+<region> lokey=21 hikey=21 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mf B-1.webm
+<region> lokey=22 hikey=22 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mf B-1.webm
+<region> lokey=23 hikey=23 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mf B-1.webm
+<region> lokey=24 hikey=24 pitch_keycenter=023 ampeg_release=0.6 sample=samples/Mf B-1.webm
+<region> lokey=25 hikey=25 pitch_keycenter=027 ampeg_release=0.5 sample=samples/Mf Ds0.webm
+<region> lokey=26 hikey=26 pitch_keycenter=027 ampeg_release=0.5 sample=samples/Mf Ds0.webm
+<region> lokey=27 hikey=27 pitch_keycenter=027 ampeg_release=0.5 sample=samples/Mf Ds0.webm
+<region> lokey=28 hikey=28 pitch_keycenter=029 ampeg_release=0.4 sample=samples/Mf F0.webm
+<region> lokey=29 hikey=29 pitch_keycenter=029 ampeg_release=0.4 sample=samples/Mf F0.webm
+<region> lokey=30 hikey=30 pitch_keycenter=029 ampeg_release=0.4 sample=samples/Mf F0.webm
+<region> lokey=31 hikey=31 pitch_keycenter=031 ampeg_release=0.3 sample=samples/Mf G0.webm
+<region> lokey=32 hikey=32 pitch_keycenter=031 ampeg_release=0.3 sample=samples/Mf G0.webm
+<region> lokey=33 hikey=33 pitch_keycenter=033 ampeg_release=0.2 sample=samples/Mf A0.webm
+<region> lokey=34 hikey=34 pitch_keycenter=033 ampeg_release=0.2 sample=samples/Mf A0.webm
+<region> lokey=35 hikey=35 pitch_keycenter=035 ampeg_release=0.1 sample=samples/Mf B0.webm
+<region> lokey=36 hikey=36 pitch_keycenter=037 sample=samples/MF Cs1.webm
+<region> lokey=37 hikey=37 pitch_keycenter=037 sample=samples/MF Cs1.webm
+<region> lokey=38 hikey=38 pitch_keycenter=038 sample=samples/MF D1.webm
+<region> lokey=39 hikey=39 pitch_keycenter=038 sample=samples/MF D1.webm
+<region> lokey=40 hikey=40 pitch_keycenter=040 sample=samples/MF E1.webm
+<region> lokey=41 hikey=41 pitch_keycenter=041 sample=samples/MF F1.webm
+<region> lokey=42 hikey=42 pitch_keycenter=043 sample=samples/MF G1.webm
+<region> lokey=43 hikey=43 pitch_keycenter=043 sample=samples/MF G1.webm
+<region> lokey=44 hikey=44 pitch_keycenter=043 sample=samples/MF G1.webm
+<region> lokey=45 hikey=45 pitch_keycenter=045 sample=samples/MF A1.webm
+<region> lokey=46 hikey=46 pitch_keycenter=045 sample=samples/MF A1.webm
+<region> lokey=47 hikey=47 pitch_keycenter=047 sample=samples/MF B1.webm
+<region> lokey=48 hikey=48 pitch_keycenter=048 sample=samples/MF C2.webm
+<region> lokey=49 hikey=49 pitch_keycenter=048 sample=samples/MF C2.webm
+<region> lokey=50 hikey=50 pitch_keycenter=050 sample=samples/MF D2.webm
+<region> lokey=51 hikey=51 pitch_keycenter=052 sample=samples/MF E2.webm
+<region> lokey=52 hikey=52 pitch_keycenter=052 sample=samples/MF E2.webm
+<region> lokey=53 hikey=53 pitch_keycenter=053 sample=samples/MF F2.webm
+<region> lokey=54 hikey=54 pitch_keycenter=053 sample=samples/MF F2.webm
+<region> lokey=55 hikey=55 pitch_keycenter=055 sample=samples/MF G2.webm
+<region> lokey=56 hikey=56 pitch_keycenter=056 sample=samples/MF Gs2.webm
+<region> lokey=57 hikey=57 pitch_keycenter=057 sample=samples/MF A2.webm
+<region> lokey=58 hikey=58 pitch_keycenter=058 sample=samples/MF As2.webm
+<region> lokey=59 hikey=59 pitch_keycenter=059 sample=samples/MF B2.webm
+<region> lokey=60 hikey=60 pitch_keycenter=060 sample=samples/MF C3.webm
+<region> lokey=61 hikey=61 pitch_keycenter=060 sample=samples/MF C3.webm
+<region> lokey=62 hikey=62 pitch_keycenter=062 sample=samples/MF D3.webm
+<region> lokey=63 hikey=63 pitch_keycenter=062 sample=samples/MF D3.webm
+<region> lokey=64 hikey=64 pitch_keycenter=064 sample=samples/MF E3.webm
+<region> lokey=65 hikey=65 pitch_keycenter=065 sample=samples/MF F3.webm
+<region> lokey=66 hikey=66 pitch_keycenter=065 sample=samples/MF F3.webm
+<region> lokey=67 hikey=67 pitch_keycenter=067 sample=samples/MF G3.webm
+<region> lokey=68 hikey=68 pitch_keycenter=067 sample=samples/MF G3.webm
+<region> lokey=69 hikey=69 pitch_keycenter=069 sample=samples/MF A3.webm
+<region> lokey=70 hikey=70 pitch_keycenter=071 sample=samples/MF B3.webm
+<region> lokey=71 hikey=71 pitch_keycenter=071 sample=samples/MF B3.webm
+<region> lokey=72 hikey=72 pitch_keycenter=072 sample=samples/MF C4.webm
+<region> lokey=73 hikey=73 pitch_keycenter=072 sample=samples/MF C4.webm
+<region> lokey=74 hikey=74 pitch_keycenter=074 sample=samples/Mf D4.webm
+<region> lokey=75 hikey=75 pitch_keycenter=074 sample=samples/Mf D4.webm
+<region> lokey=76 hikey=76 pitch_keycenter=076 sample=samples/Mf E4.webm
+<region> lokey=77 hikey=77 pitch_keycenter=077 sample=samples/Mf F4.webm
+<region> lokey=78 hikey=78 pitch_keycenter=077 sample=samples/Mf F4.webm
+<region> lokey=79 hikey=79 pitch_keycenter=079 sample=samples/Mf G4.webm
+<region> lokey=80 hikey=80 pitch_keycenter=080 sample=samples/Mf Gs4.webm
+<region> lokey=81 hikey=81 pitch_keycenter=081 sample=samples/Mf A4.webm
+<region> lokey=82 hikey=82 pitch_keycenter=082 sample=samples/Mf As4.webm
+<region> lokey=83 hikey=83 pitch_keycenter=083 sample=samples/Mf B4.webm
+<region> lokey=84 hikey=84 pitch_keycenter=085 ampeg_release=0.1 sample=samples/Mf Cs5.webm
+<region> lokey=85 hikey=85 pitch_keycenter=085 ampeg_release=0.1 sample=samples/Mf Cs5.webm
+<region> lokey=86 hikey=86 pitch_keycenter=086 ampeg_release=0.2 sample=samples/Mf D5.webm
+<region> lokey=87 hikey=87 pitch_keycenter=087 ampeg_release=0.3 sample=samples/Mf Ds5.webm
+<region> lokey=88 hikey=88 pitch_keycenter=088 ampeg_release=0.4 sample=samples/Mf E5.webm
+<region> lokey=89 hikey=89 pitch_keycenter=089 ampeg_release=0.5 sample=samples/Mf F5.webm
+<region> lokey=90 hikey=90 pitch_keycenter=090 ampeg_release=0.6 sample=samples/Mf Fs5.webm
+<region> lokey=91 hikey=91 pitch_keycenter=091 ampeg_release=10 sample=samples/Mf G5.webm
+<region> lokey=92 hikey=92 pitch_keycenter=092 ampeg_release=10 sample=samples/Mf Gs5.webm
+<region> lokey=93 hikey=93 pitch_keycenter=093 ampeg_release=10 sample=samples/Mf A5.webm
+<region> lokey=94 hikey=94 pitch_keycenter=094 ampeg_release=10 sample=samples/Mf As5.webm
+<region> lokey=95 hikey=95 pitch_keycenter=095 ampeg_release=10 sample=samples/Mf B5.webm
+<region> lokey=96 hikey=96 pitch_keycenter=096 ampeg_release=10 sample=samples/Mf C6.webm
+<region> lokey=97 hikey=97 pitch_keycenter=097 ampeg_release=10 sample=samples/Mf Cs6.webm
+<region> lokey=98 hikey=98 pitch_keycenter=098 ampeg_release=10 sample=samples/Mf D6.webm
+<region> lokey=99 hikey=99 pitch_keycenter=099 ampeg_release=10 sample=samples/Mf Ds6.webm
+<region> lokey=100 hikey=100 pitch_keycenter=100 ampeg_release=10 sample=samples/Mf E6.webm
+<region> lokey=101 hikey=101 pitch_keycenter=101 ampeg_release=10 sample=samples/Mf F6.webm
+<region> lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=10 sample=samples/Mf Fs6.webm
+<region> lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=10 sample=samples/Mf G6.webm
+<region> lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=10 sample=samples/Mf Gs6.webm
+<region> lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=10 sample=samples/Mf A6.webm
+<region> lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=10 sample=samples/Mf As6.webm
+<region> lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=10 sample=samples/Mf B6.webm
+<region> lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=10 sample=samples/Mf C7.webm
+
+<group>
+lovel=101
+hivel=127
+group_volume=0
+group_label=FF
+<region> lokey=21 hikey=21 pitch_keycenter=023 ampeg_release=0.6 sample=samples/FF B-1.webm
+<region> lokey=22 hikey=22 pitch_keycenter=023 ampeg_release=0.6 sample=samples/FF B-1.webm
+<region> lokey=23 hikey=23 pitch_keycenter=023 ampeg_release=0.6 sample=samples/FF B-1.webm
+<region> lokey=24 hikey=24 pitch_keycenter=023 ampeg_release=0.6 sample=samples/FF B-1.webm
+<region> lokey=25 hikey=25 pitch_keycenter=027 ampeg_release=0.5 sample=samples/FF Ds0.webm
+<region> lokey=26 hikey=26 pitch_keycenter=027 ampeg_release=0.5 sample=samples/FF Ds0.webm
+<region> lokey=27 hikey=27 pitch_keycenter=027 ampeg_release=0.5 sample=samples/FF Ds0.webm
+<region> lokey=28 hikey=28 pitch_keycenter=029 ampeg_release=0.4 sample=samples/FF F0.webm
+<region> lokey=29 hikey=29 pitch_keycenter=029 ampeg_release=0.4 sample=samples/FF F0.webm
+<region> lokey=30 hikey=30 pitch_keycenter=029 ampeg_release=0.4 sample=samples/FF F0.webm
+<region> lokey=31 hikey=31 pitch_keycenter=031 ampeg_release=0.3 sample=samples/FF G0.webm
+<region> lokey=32 hikey=32 pitch_keycenter=031 ampeg_release=0.3 sample=samples/FF G0.webm
+<region> lokey=33 hikey=33 pitch_keycenter=033 ampeg_release=0.2 sample=samples/FF A0.webm
+<region> lokey=34 hikey=34 pitch_keycenter=033 ampeg_release=0.2 sample=samples/FF A0.webm
+<region> lokey=35 hikey=35 pitch_keycenter=035 ampeg_release=0.1 sample=samples/FF B0.webm
+<region> lokey=36 hikey=36 pitch_keycenter=037 sample=samples/FF Cs1.webm
+<region> lokey=37 hikey=37 pitch_keycenter=037 sample=samples/FF Cs1.webm
+<region> lokey=38 hikey=38 pitch_keycenter=038 sample=samples/FF D1.webm
+<region> lokey=39 hikey=39 pitch_keycenter=038 sample=samples/FF D1.webm
+<region> lokey=40 hikey=40 pitch_keycenter=040 sample=samples/FF E1.webm
+<region> lokey=41 hikey=41 pitch_keycenter=041 sample=samples/FF F1.webm
+<region> lokey=42 hikey=42 pitch_keycenter=043 sample=samples/FF G1.webm offset=100
+<region> lokey=43 hikey=43 pitch_keycenter=043 sample=samples/FF G1.webm offset=100
+<region> lokey=44 hikey=44 pitch_keycenter=043 sample=samples/FF G1.webm offset=100
+<region> lokey=45 hikey=45 pitch_keycenter=045 sample=samples/FF A1.webm
+<region> lokey=46 hikey=46 pitch_keycenter=045 sample=samples/FF A1.webm
+<region> lokey=47 hikey=47 pitch_keycenter=047 sample=samples/FF B1.webm
+<region> lokey=48 hikey=48 pitch_keycenter=048 sample=samples/FF C2.webm
+<region> lokey=49 hikey=49 pitch_keycenter=048 sample=samples/FF C2.webm
+<region> lokey=50 hikey=50 pitch_keycenter=050 sample=samples/FF D2.webm
+<region> lokey=51 hikey=51 pitch_keycenter=052 sample=samples/FF E2.webm
+<region> lokey=52 hikey=52 pitch_keycenter=052 sample=samples/FF E2.webm
+<region> lokey=53 hikey=53 pitch_keycenter=053 sample=samples/FF F2.webm
+<region> lokey=54 hikey=54 pitch_keycenter=053 sample=samples/FF F2.webm
+<region> lokey=55 hikey=55 pitch_keycenter=055 sample=samples/FF G2.webm
+<region> lokey=56 hikey=56 pitch_keycenter=056 sample=samples/FF Gs2.webm
+<region> lokey=57 hikey=57 pitch_keycenter=057 sample=samples/FF A2.webm
+<region> lokey=58 hikey=58 pitch_keycenter=058 sample=samples/FF As2.webm
+<region> lokey=59 hikey=59 pitch_keycenter=059 sample=samples/FF B2.webm
+<region> lokey=60 hikey=60 pitch_keycenter=060 sample=samples/FF C3.webm offset=325
+<region> lokey=61 hikey=61 pitch_keycenter=060 sample=samples/FF C3.webm offset=325
+<region> lokey=62 hikey=62 pitch_keycenter=062 sample=samples/FF D3.webm
+<region> lokey=63 hikey=63 pitch_keycenter=062 sample=samples/FF D3.webm
+<region> lokey=64 hikey=64 pitch_keycenter=064 sample=samples/FF E3.webm
+<region> lokey=65 hikey=65 pitch_keycenter=065 sample=samples/FF F3.webm
+<region> lokey=66 hikey=66 pitch_keycenter=065 sample=samples/FF F3.webm
+<region> lokey=67 hikey=67 pitch_keycenter=067 sample=samples/FF G3.webm
+<region> lokey=68 hikey=68 pitch_keycenter=067 sample=samples/FF G3.webm
+<region> lokey=69 hikey=69 pitch_keycenter=069 sample=samples/FF A3.webm
+<region> lokey=70 hikey=70 pitch_keycenter=071 sample=samples/FF B3.webm
+<region> lokey=71 hikey=71 pitch_keycenter=071 sample=samples/FF B3.webm
+<region> lokey=72 hikey=72 pitch_keycenter=072 sample=samples/FF C4.webm
+<region> lokey=73 hikey=73 pitch_keycenter=072 sample=samples/FF C4.webm
+<region> lokey=74 hikey=74 pitch_keycenter=074 sample=samples/FF D4.webm
+<region> lokey=75 hikey=75 pitch_keycenter=074 sample=samples/FF D4.webm
+<region> lokey=76 hikey=76 pitch_keycenter=076 sample=samples/FF E4.webm
+<region> lokey=77 hikey=77 pitch_keycenter=077 sample=samples/FF F4.webm
+<region> lokey=78 hikey=78 pitch_keycenter=077 sample=samples/FF F4.webm
+<region> lokey=79 hikey=79 pitch_keycenter=079 sample=samples/FF G4.webm
+<region> lokey=80 hikey=80 pitch_keycenter=080 sample=samples/FF Gs4.webm
+<region> lokey=81 hikey=81 pitch_keycenter=081 sample=samples/FF A4.webm
+<region> lokey=82 hikey=82 pitch_keycenter=082 sample=samples/FF As4.webm
+<region> lokey=83 hikey=83 pitch_keycenter=083 sample=samples/FF B4.webm
+<region> lokey=84 hikey=84 pitch_keycenter=085 ampeg_release=0.2 sample=samples/FF Cs5.webm
+<region> lokey=85 hikey=85 pitch_keycenter=085 ampeg_release=0.2 sample=samples/FF Cs5.webm
+<region> lokey=86 hikey=86 pitch_keycenter=086 ampeg_release=0.4 sample=samples/FF D5.webm
+<region> lokey=87 hikey=87 pitch_keycenter=086 ampeg_release=0.4 sample=samples/FF D5.webm
+<region> lokey=88 hikey=88 pitch_keycenter=088 ampeg_release=0.5 sample=samples/FF E5.webm
+<region> lokey=89 hikey=89 pitch_keycenter=089 ampeg_release=0.6 sample=samples/FF F5.webm
+<region> lokey=90 hikey=90 pitch_keycenter=089 ampeg_release=0.6 sample=samples/FF F5.webm
+<region> lokey=91 hikey=91 pitch_keycenter=091 ampeg_release=10 sample=samples/FF G5.webm
+<region> lokey=92 hikey=92 pitch_keycenter=091 ampeg_release=10 sample=samples/FF G5.webm
+<region> lokey=93 hikey=93 pitch_keycenter=093 ampeg_release=10 sample=samples/FF A5.webm
+<region> lokey=94 hikey=94 pitch_keycenter=093 ampeg_release=10 sample=samples/FF A5.webm
+<region> lokey=95 hikey=95 pitch_keycenter=095 ampeg_release=10 sample=samples/Mf B5.webm
+<region> lokey=96 hikey=96 pitch_keycenter=096 ampeg_release=10 sample=samples/Mf C6.webm
+<region> lokey=97 hikey=97 pitch_keycenter=096 ampeg_release=10 sample=samples/Mf C6.webm
+<region> lokey=98 hikey=98 pitch_keycenter=097 ampeg_release=10 sample=samples/Mf Cs6.webm
+<region> lokey=99 hikey=99 pitch_keycenter=098 ampeg_release=10 sample=samples/Mf D6.webm
+<region> lokey=100 hikey=100 pitch_keycenter=099 ampeg_release=10 sample=samples/Mf Ds6.webm
+<region> lokey=101 hikey=101 pitch_keycenter=100 ampeg_release=10 sample=samples/Mf E6.webm
+<region> lokey=102 hikey=102 pitch_keycenter=102 ampeg_release=10 sample=samples/Mf Fs6.webm
+<region> lokey=103 hikey=103 pitch_keycenter=103 ampeg_release=10 sample=samples/Mf G6.webm
+<region> lokey=104 hikey=104 pitch_keycenter=104 ampeg_release=10 sample=samples/Mf Gs6.webm
+<region> lokey=105 hikey=105 pitch_keycenter=105 ampeg_release=10 sample=samples/Mf A6.webm
+<region> lokey=106 hikey=106 pitch_keycenter=106 ampeg_release=10 sample=samples/Mf As6.webm
+<region> lokey=107 hikey=107 pitch_keycenter=107 ampeg_release=10 sample=samples/Mf B6.webm
+<region> lokey=108 hikey=108 pitch_keycenter=108 ampeg_release=10 sample=samples/Mf C7.webm

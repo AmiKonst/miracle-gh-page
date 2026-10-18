@@ -1,0 +1,63 @@
+/* Synthwave '84 Retro Neon Theme */
+:root {
+    --theme-id: "synthwave";
+    --theme-name: "Synthwave '84";
+
+    /* Backgrounds */
+    --bg-app: #241b2f;
+    --bg-header: linear-gradient(180deg, #2f223f 0%, #241b2f 100%);
+    --bg-card: #2f223f;
+    --bg-card-hover: #3c2c52;
+    --bg-card-active: #4a3665;
+    --bg-popover: #2f223f;
+    --bg-input: #1a1322;
+    --bg-input-hover: #261c33;
+    --bg-control: #1a1322;
+
+    /* Glass Effects */
+    --glass-bg: rgba(47, 34, 63, 0.92);
+    --glass-border: rgba(255, 126, 219, 0.2);
+    --overlay-backdrop: rgba(18, 12, 24, 0.85);
+
+    /* Text Colors */
+    --text-primary: #fdf5fc;
+    --text-secondary: #ff7edb;
+    --text-muted: #8d769e;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #3e2d53;
+    --border-medium: #543d70;
+    --border-strong: #ff7edb;
+    --border-active: #ff7edb;
+
+    /* Accents (Synthwave Hot Pink & Laser Cyan) */
+    --accent-primary: #ff7edb;
+    --accent-primary-hover: #ff9ee6;
+    --accent-secondary: #36f9f6;
+    --accent-glow: rgba(255, 126, 219, 0.42);
+    --accent-rgb: 255, 126, 219;
+    --accent-gradient: linear-gradient(135deg, #ff7edb, #36f9f6);
+    --panel-gradient: linear-gradient(180deg, #2f223f 0%, #241b2f 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.45);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.65);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.85);
+    --shadow-glow: 0 0 20px rgba(255, 126, 219, 0.4);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #241b2f;
+    --bg-piano-white-key: linear-gradient(180deg, #fff7fd 0%, #ecd4ee 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #ff7edb;
+    --text-piano-white-key: #241b2f;
+
+    --bg-piano-black-key: linear-gradient(180deg, #4a3665 0%, #1a1322 100%);
+    --bg-piano-black-key-hover: #604682;
+    --bg-piano-black-key-active: #36f9f6;
+    --text-piano-black-key: #fdf5fc;
+
+    --piano-key-border: rgba(0, 0, 0, 0.45);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
+}

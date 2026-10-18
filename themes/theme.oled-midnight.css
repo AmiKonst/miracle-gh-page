@@ -1,0 +1,63 @@
+/* OLED Midnight / True Black Stealth Theme */
+:root {
+    --theme-id: "oled-midnight";
+    --theme-name: "OLED Midnight";
+
+    /* 100% True Black / Pitch Obsidian for Zero Glare & OLED Display Power Saving */
+    --bg-app: #030407;
+    --bg-header: linear-gradient(180deg, #090c12 0%, #030407 100%);
+    --bg-card: #090c13;
+    --bg-card-hover: #121824;
+    --bg-card-active: #1a2233;
+    --bg-popover: #090c13;
+    --bg-input: #020305;
+    --bg-input-hover: #0a0e16;
+    --bg-control: #020305;
+
+    /* Glass Effects */
+    --glass-bg: rgba(9, 12, 19, 0.95);
+    --glass-border: rgba(56, 189, 248, 0.18);
+    --overlay-backdrop: rgba(0, 0, 0, 0.92);
+
+    /* Text Colors */
+    --text-primary: #f0f4fc;
+    --text-secondary: #38bdf8;
+    --text-muted: #4e586e;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #101522;
+    --border-medium: #1b2336;
+    --border-strong: #38bdf8;
+    --border-active: #38bdf8;
+
+    /* Accents (Icy Azure Blue & Laser Emerald) */
+    --accent-primary: #38bdf8;
+    --accent-primary-hover: #7dd3fc;
+    --accent-secondary: #10b981;
+    --accent-glow: rgba(56, 189, 248, 0.42);
+    --accent-rgb: 56, 189, 248;
+    --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #10b981 100%);
+    --panel-gradient: linear-gradient(180deg, #090c13 0%, #030407 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.7);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.9);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.95);
+    --shadow-glow: 0 0 20px rgba(56, 189, 248, 0.35);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #030407;
+    --bg-piano-white-key: linear-gradient(180deg, #f8fafc 0%, #dbe4f0 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #38bdf8;
+    --text-piano-white-key: #030407;
+
+    --bg-piano-black-key: linear-gradient(180deg, #151c2c 0%, #020305 100%);
+    --bg-piano-black-key-hover: #222d46;
+    --bg-piano-black-key-active: #10b981;
+    --text-piano-black-key: #f0f4fc;
+
+    --piano-key-border: rgba(0, 0, 0, 0.7);
+    --piano-key-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}

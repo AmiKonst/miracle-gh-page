@@ -1,0 +1,63 @@
+/* Cyberpunk Ultraviolet / Neon Purple Night Theme */
+:root {
+    --theme-id: "cyber-violet";
+    --theme-name: "Cyber Violet Night";
+
+    /* Deep Electric Obsidian Violet Backgrounds */
+    --bg-app: #0a0814;
+    --bg-header: linear-gradient(180deg, #140f26 0%, #0a0814 100%);
+    --bg-card: #141026;
+    --bg-card-hover: #1f183b;
+    --bg-card-active: #2b2252;
+    --bg-popover: #141026;
+    --bg-input: #080610;
+    --bg-input-hover: #110d21;
+    --bg-control: #080610;
+
+    /* Glass Effects */
+    --glass-bg: rgba(20, 16, 38, 0.94);
+    --glass-border: rgba(168, 85, 247, 0.22);
+    --overlay-backdrop: rgba(6, 4, 12, 0.88);
+
+    /* Text Colors */
+    --text-primary: #f5f3ff;
+    --text-secondary: #c084fc;
+    --text-muted: #6d6387;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #1e1738;
+    --border-medium: #2e2354;
+    --border-strong: #a855f7;
+    --border-active: #a855f7;
+
+    /* Accents (Ultraviolet & Glowing Neon Turquoise) */
+    --accent-primary: #c084fc;
+    --accent-primary-hover: #e9d5ff;
+    --accent-secondary: #06b6d4;
+    --accent-glow: rgba(192, 132, 252, 0.45);
+    --accent-rgb: 192, 132, 252;
+    --accent-gradient: linear-gradient(135deg, #c084fc 0%, #06b6d4 100%);
+    --panel-gradient: linear-gradient(180deg, #141026 0%, #0a0814 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.55);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.8);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.92);
+    --shadow-glow: 0 0 20px rgba(192, 132, 252, 0.4);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #0a0814;
+    --bg-piano-white-key: linear-gradient(180deg, #ffffff 0%, #e2d9f3 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #c084fc;
+    --text-piano-white-key: #0a0814;
+
+    --bg-piano-black-key: linear-gradient(180deg, #241a45 0%, #080610 100%);
+    --bg-piano-black-key-hover: #362766;
+    --bg-piano-black-key-active: #06b6d4;
+    --text-piano-black-key: #f5f3ff;
+
+    --piano-key-border: rgba(0, 0, 0, 0.6);
+    --piano-key-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}

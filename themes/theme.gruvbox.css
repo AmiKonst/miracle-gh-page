@@ -1,0 +1,63 @@
+/* Gruvbox Dark Warm Retro Theme */
+:root {
+    --theme-id: "gruvbox";
+    --theme-name: "Gruvbox Dark";
+
+    /* Backgrounds */
+    --bg-app: #282828;
+    --bg-header: linear-gradient(180deg, #32302f 0%, #282828 100%);
+    --bg-card: #32302f;
+    --bg-card-hover: #3c3836;
+    --bg-card-active: #504945;
+    --bg-popover: #32302f;
+    --bg-input: #1d2021;
+    --bg-input-hover: #282828;
+    --bg-control: #1d2021;
+
+    /* Glass Effects */
+    --glass-bg: rgba(50, 48, 47, 0.94);
+    --glass-border: rgba(250, 189, 47, 0.16);
+    --overlay-backdrop: rgba(29, 32, 33, 0.85);
+
+    /* Text Colors */
+    --text-primary: #ebdbb2;
+    --text-secondary: #fabd2f;
+    --text-muted: #928374;
+    --text-contrast: #ffffff;
+
+    /* Borders */
+    --border-subtle: #3c3836;
+    --border-medium: #504945;
+    --border-strong: #fabd2f;
+    --border-active: #fabd2f;
+
+    /* Accents (Gruvbox Warm Gold & Burnt Orange) */
+    --accent-primary: #fabd2f;
+    --accent-primary-hover: #fcd068;
+    --accent-secondary: #fe8019;
+    --accent-glow: rgba(250, 189, 47, 0.35);
+    --accent-rgb: 250, 189, 47;
+    --accent-gradient: linear-gradient(135deg, #fabd2f, #fe8019);
+    --panel-gradient: linear-gradient(180deg, #32302f 0%, #282828 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.6);
+    --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.8);
+    --shadow-glow: 0 0 18px rgba(250, 189, 47, 0.3);
+
+    /* Piano Specific Tokens */
+    --bg-piano-container: #282828;
+    --bg-piano-white-key: linear-gradient(180deg, #fbf1c7 0%, #d5c4a1 100%);
+    --bg-piano-white-key-hover: #ffffff;
+    --bg-piano-white-key-active: #fabd2f;
+    --text-piano-white-key: #1d2021;
+
+    --bg-piano-black-key: linear-gradient(180deg, #504945 0%, #1d2021 100%);
+    --bg-piano-black-key-hover: #665c54;
+    --bg-piano-black-key-active: #fe8019;
+    --text-piano-black-key: #ebdbb2;
+
+    --piano-key-border: rgba(0, 0, 0, 0.4);
+    --piano-key-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
